@@ -1,12 +1,9 @@
-import { createReducer } from 'redux-act'
 import compose from 'ramda/src/compose'
 import path from 'ramda/src/path'
 import map from 'ramda/src/map'
-import { capitalize } from 'dbranes'
+import capitalize from 'mellotron/capitalize'
 
-import { setUsers } from '../actions'
-
-const toUser = (user) => ({
+export const toUser = (user) => ({
   id: user.id.value,
   firstname: capitalize(user.name.first),
   lastname: capitalize(user.name.last),
@@ -19,10 +16,4 @@ const toUser = (user) => ({
   nationality: user.nat,
 })
 
-const reduceUsers = compose(map(toUser), path(['data', 'results']))
-
-export default createReducer({
-    [setUsers]: (state, response) => reduceUsers(response),
-  },
-  { users: [] }
-)
+export default compose(map(toUser), path(['data', 'results']))

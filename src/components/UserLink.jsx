@@ -5,7 +5,7 @@ import ListItem from 'material-ui/List/ListItem';
 import Avatar from 'material-ui/Avatar';
 import ModeEdit from 'material-ui/svg-icons/editor/mode-edit';
 
-const UserListItem = ({ user }) => (
+const UserLink = ({ user }) => (
   <Link to={`/user/${user.id}`} style={{ textDecoration: 'none' }}>
     <ListItem
       primaryText={`${user.firstname} ${user.lastname}`}
@@ -15,4 +15,4 @@ const UserListItem = ({ user }) => (
   </Link>
 )
 
-export default UserListItem
+export default UserLink

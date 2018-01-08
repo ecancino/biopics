@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 import { compose, identity, path, isNil } from 'ramda'
 
 import { dispatch } from '../../store'
-import { requestUser } from '../../thunks'
+import { requestUser } from './thunks'
 
 import { onMount, withSpinner } from '../../hocs'
 

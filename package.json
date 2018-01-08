@@ -5,8 +5,8 @@
   "dependencies": {
     "aphrodite": "1.2.5",
     "axios": "0.17.1",
-    "dbranes": "1.1.0",
     "material-ui": "0.20.0",
+    "mellotron": "0.2.5",
     "ramda": "0.25.0",
     "react": "16.0.0",
     "react-dom": "16.0.0",
