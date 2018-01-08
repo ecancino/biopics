@@ -1,8 +1,11 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 import Root from './containers/Root'
+import a11y from './helpers/a11y'
 
-render(
-  <Root />, 
-  document.getElementById('root')
+a11y(React, ReactDOM)
+
+ReactDOM.render(
+  <Root />,
+  document.querySelector('#root')
 );

@@ -9,6 +9,7 @@
     "mellotron": "0.2.5",
     "ramda": "0.25.0",
     "react": "16.0.0",
+    "react-a11y": "1.0.0",
     "react-dom": "16.0.0",
     "react-preloader-icon": "^0.1.0",
     "react-redux": "5.0.6",

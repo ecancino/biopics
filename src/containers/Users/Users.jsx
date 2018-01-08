@@ -6,14 +6,11 @@ import Subheader from 'material-ui/Subheader';
 import List from 'material-ui/List/List';
 
 import UserLink from '../../components/UserLink'
-
 import { dispatch } from '../../store'
 import { requestUsers } from './thunks'
-
 import { onMount, withSpinner } from '../../hocs'
 
 const toUserLinks = map(user => <UserLink key={user.email} user={user} />)
-
 const UserList = compose(toUserLinks, prop('users'))
 
 const Users = ({ users = [] }) => (
