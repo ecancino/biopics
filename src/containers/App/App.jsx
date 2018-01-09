@@ -3,8 +3,7 @@ import { css } from 'aphrodite';
 
 import Paper from 'material-ui/Paper';
 
-import Menu from '../Menu'
-
+import Menu from '../../components/Menu'
 import styles from '../../styles';
 
 export default ({ children }) => (

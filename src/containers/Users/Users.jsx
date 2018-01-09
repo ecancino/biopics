@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Subheader from 'material-ui/Subheader';
 import List from 'material-ui/List/List';
 
 import UserList from './components/UserList'

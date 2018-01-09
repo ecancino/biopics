@@ -1,48 +1,53 @@
 import React from 'react'
 import { Field } from 'redux-form'
 
-import RaisedButton from 'material-ui/RaisedButton';
+import TextField from 'material-ui/TextField';
+import SelectField from 'material-ui/SelectField';
+import MenuItem from 'material-ui/MenuItem';
 import DatePicker from 'material-ui/DatePicker';
+import RaisedButton from 'material-ui/RaisedButton';
 
 import enhance from './enhance'
+
+const formatDate = input => input.value ? new Date(Date.parse(input.value)) : {}
+
+const textField = ({ input, label }) => <TextField {...input} placeholder={label} floatingLabelText={label}  fullWidth={true} />
+
+const datePicker = ({ input, label }) => <DatePicker {...input} value={formatDate(input)} placeholder={label} floatingLabelText={label} fullWidth={true} />
+
+const selectField = ({ input, label, type, items, meta: { touched, error } }) => <SelectField {...input} floatingLabelText={label} fullWidth={true}>
+  {items.map(item => <MenuItem key={item} value={item} primaryText={item} />)}
+</SelectField>
 
 const User = ({ handleSubmit, pristine, reset, submitting, saveUser }) => (
   <form onSubmit={handleSubmit(saveUser)}>
     <div>
-      <label htmlFor="title">Title</label>
-      <Field name="title" component="input" type="text" />
+      <Field name="title" component={textField} type="text" label="Title" />
     </div>
     <div>
-      <label htmlFor="subject">Subject</label>
-      <Field name="subject" component="input" type="text" />
+      <Field name="subject" component={textField} type="text"  label="Subject"/>
     </div>
     <div>
-      <label htmlFor="director">Director</label>
-      <Field name="director" component="input" type="text" />
+      <Field name="director" component={textField} type="text" label="Director" />
     </div>
     <div>
-      <label htmlFor="year_release">Release</label>
-      <Field name="year_release" component={DatePicker} type="text" />
+      <Field name="year_release" component={datePicker} type="text" label="Release" />
     </div>
     <div>
-      <label htmlFor="type">Type</label>
-      <Field name="type" component="input" type="text" />
+      <Field name="type" component={selectField} items={['Criminal', 'Academic']} type="text" label="Type" />
     </div>
     <div>
-      <label htmlFor="country">Country</label>
-      <Field name="country" component="input" type="text" />
+      <Field name="country" component={selectField} items={['UK', 'US']} type="text" label="Country" />
     </div>
     <div>
-      <label htmlFor="site">Site</label>
-      <Field name="site" component="input" type="text" />
+      <Field name="lead_actor" component={textField} type="text" label="Lead" />
     </div>
     <div>
-      <label htmlFor="lead_actor">Lead</label>
-      <Field name="lead_actor" component="input" type="text" />
+      <Field name="site" component={textField} type="text" label="Site" />
     </div>
     <div>
+      <RaisedButton type="button" label="Reset" secondary={true} disabled={pristine || submitting} onClick={reset} />
       <RaisedButton type="submit" label="Submit" primary={true} disabled={pristine || submitting} />
-      <RaisedButton type="button" label="Undo Changes" secondary={true} disabled={pristine || submitting} onClick={reset} />
     </div>
   </form>
 )
