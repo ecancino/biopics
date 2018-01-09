@@ -8,7 +8,7 @@ import Home from '../containers/Home/Home'
 import Users from '../containers/Users/Users'
 import User from '../containers/User/User'
 
-const history = syncHistoryWithStore(hashHistory, store)
+export const history = syncHistoryWithStore(hashHistory, store)
 
 export default () => (
   <Router history={history}>

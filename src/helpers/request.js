@@ -1,7 +1,5 @@
 import axios from 'axios'
 
-const baseURL = 'https://randomuser.me/api'
+const baseURL = 'http://localhost:8888'
 
-const request = axios.create({ baseURL });
-
-export default request
+export default axios.create({ baseURL });
