@@ -8,7 +8,7 @@ Implemented : ✓
   - [aphrodite](https://github.com/Khan/aphrodite) ✓  
 - [redux](https://redux.js.org/) ✓
   - [redux-thunk](https://github.com/gaearon/redux-thunk) ✓
-  - [redux-form](https://redux-form.com/)
+  - [redux-form](https://redux-form.com/) ✓
   - [redux-act](https://github.com/pauldijou/redux-act) ✓
   - [redux-devtools](https://github.com/gaearon/redux-devtools) ✓
   - [redux-logger](https://github.com/evgenyrodionov/redux-logger) ✓
