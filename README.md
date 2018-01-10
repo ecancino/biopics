@@ -18,6 +18,6 @@ Implemented : ✓
   - [react-router-redux](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-redux) ✓
 - [ramda](http://ramdajs.com/) ✓
 - [axios](https://github.com/axios/axios) ✓
-- [date-fns](https://date-fns.org/)
+- [date-fns](https://date-fns.org/) ✓
 - [validator](https://github.com/chriso/validator.js)
 - [jest](https://facebook.github.io/jest/)
