@@ -1,17 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router'
+import { Item, Button } from 'semantic-ui-react'
 
-import ListItem from 'material-ui/List/ListItem';
-import ModeEdit from 'material-ui/svg-icons/editor/mode-edit';
-
-const UserLink = ({ user }) => (
-  <Link to={`/user/${user.id}`} style={{ textDecoration: 'none' }}>
-    <ListItem role='button'
-      primaryText={user.subject}
-      secondaryText={user.title}
-      rightIcon={<ModeEdit />}
-    />
-  </Link>
-)
+const UserLink = ({ user }) =>
+  <Item as={Link} to={`/user/${user.id}`} style={{ display: 'block' }}>
+    <Item.Content header={user.subject} description={user.title} meta={<Button icon='edit' floated='right' />} />
+  </Item>
 
 export default UserLink

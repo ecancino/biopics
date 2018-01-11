@@ -1,6 +1,6 @@
 import React from 'react'
 
-import TextField from 'material-ui/TextField';
+import { Input } from 'semantic-ui-react'
 
-export default ({ input, label }) =>
-  <TextField {...input} floatingLabelText={label} fullWidth={true} />
+export default ({ input, tabIndex = -1, ...other }) =>
+  <Input {...input} tabIndex={tabIndex} {...other} />

@@ -9,4 +9,3 @@ export default ({ children }) => (
     <Paper zDepth={3}>{children}</Paper>
   </MuiThemeProvider>
 )
-

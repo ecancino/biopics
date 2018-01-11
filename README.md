@@ -3,7 +3,7 @@
 #### Dependencies
 Implemented : ✓
 - [react](https://reactjs.org/) ✓
-  - [material-ui](http://www.material-ui.com/) ✓
+  - [semantic-ui-react](https://react.semantic-ui.com) ✓
   - [recompose](https://github.com/acdlite/recompose) ✓
   - [aphrodite](https://github.com/Khan/aphrodite) ✓  
 - [redux](https://redux.js.org/) ✓
@@ -21,3 +21,4 @@ Implemented : ✓
 - [date-fns](https://date-fns.org/) ✓
 - [validator](https://github.com/chriso/validator.js)
 - [jest](https://facebook.github.io/jest/)
+- [react-day-picker](http://react-day-picker.js.org/) ✓

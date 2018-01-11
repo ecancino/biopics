@@ -1,12 +1,28 @@
 import React from 'react'
 
-import DatePicker from 'material-ui/DatePicker';
-import { toDate, fromDate } from '../helpers/dates'
+import { css } from 'aphrodite'
+import { Input } from 'semantic-ui-react'
+import DayPickerInput from 'react-day-picker/DayPickerInput';
 
-export default ({ input: { onChange, value }, label }) =>
-  <DatePicker autoOk={true} floatingLabelText={label} fullWidth={true}
-    textFieldStyle={{ floatingLabelText: label }}
-    onChange={(event, value) => onChange(toDate(value))}
-    formatDate={fromDate}
-    value={!value ? null : new Date(value)}
+import { getUTCDate, toDate } from '../helpers/dates'
+import styles from '../styles'
+
+export default ({ input: { value, onChange }, placeholder }) => {
+  const displayDate = getUTCDate(value)
+  return <DayPickerInput
+    dayPickerProps={{
+      selectedDays: [displayDate],
+      month: displayDate,
+      showOutsideDays: true,
+      icon: 'search'
+    }}
+    onDayChange={date => onChange(toDate(date))}
+    value={displayDate}
+    formatDate={toDate}
+    classNames={{
+      container: css(styles.datePicker),
+      overlay: css(styles.overlay)
+    }}
+    component={Input}
   />
+}

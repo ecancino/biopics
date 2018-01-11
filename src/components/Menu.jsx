@@ -1,11 +1,11 @@
 import React from 'react'
 
-import AppBar from 'material-ui/AppBar';
-import MenuLink from './MenuLink'
+import { Link } from 'react-router'
+import { Menu } from 'semantic-ui-react'
 
-export default ({ children }) => (
-  <AppBar
-    title={'PoC'}
-    iconElementRight={<MenuLink to="/users">Users</MenuLink>}
-  />
+export default () => (
+  <Menu>
+    <Menu.Item name='Home' as={Link} to='/' activeClassName="active">Home</Menu.Item>
+    <Menu.Item name='Users' as={Link} to='/users' activeClassName="active">Users</Menu.Item>
+  </Menu>
 )

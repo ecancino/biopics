@@ -1,7 +1,7 @@
 import compose from 'ramda/src/compose'
 import { format } from 'date-fns/esm/fp'
 
-const getUTCDate = (dateString = Date.now()) => {
+export const getUTCDate = (dateString = Date.now()) => {
   const date = new Date(dateString);
   return new Date(
     date.getUTCFullYear(),
@@ -13,5 +13,5 @@ const getUTCDate = (dateString = Date.now()) => {
   );
 };
 
-export const toDate = format('YYYY-MM-DD')
-export const fromDate = compose(format('D MMMM YYYY'), getUTCDate)
+export const toDate = format('MM/DD/YYYY')
+export const fromDate = compose(format('MM/DD/YYYY'), getUTCDate)

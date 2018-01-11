@@ -1,14 +1,11 @@
 import React from 'react'
-import { css } from 'aphrodite';
 
-import Paper from 'material-ui/Paper';
-
+import { Container } from 'semantic-ui-react'
 import Menu from '../../components/Menu'
-import styles from '../../styles';
 
 export default ({ children }) => (
-  <div>
+  <Container text style={{ marginTop: '20px' }}>
     <Menu />
-    <Paper className={css(styles.appContainer)}>{ children }</Paper>
-  </div>
+    { children }
+  </Container>
 )
