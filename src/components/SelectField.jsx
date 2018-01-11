@@ -1,8 +1,6 @@
 import React from 'react'
 
-import { Select } from 'semantic-ui-react'
+import Combobox from 'react-widgets/lib/Combobox'
 
-export default ({ input: { name, value, onChange }, placeholder, type, options, tabIndex = -1, ...other }) =>
-  <Select name={name} value={value} options={options} placeholder={placeholder} tabIndex={tabIndex} {...other}
-    onChange={(e, o) => onChange(o.value)}
-  />
+export default ({ input, options, textField = 'text', valueField = 'value', suggest = true, tabIndex = '-1', ...other }) =>
+  <Combobox {...input} textField={textField} valueField={valueField} data={options} tabIndex={tabIndex} suggest={suggest} {...other} />
