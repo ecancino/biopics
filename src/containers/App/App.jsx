@@ -1,11 +1,13 @@
 import React from 'react'
 
-import { Container } from 'semantic-ui-react'
+import { Container, Segment } from 'semantic-ui-react'
 import Menu from '../../components/Menu'
 
 export default ({ children }) => (
-  <Container text style={{ marginTop: '20px' }}>
+  <Container style={{ margin: '20px 0' }}>
     <Menu />
-    { children }
+    <Segment attached='bottom' raised>
+      { children }
+    </Segment>
   </Container>
 )

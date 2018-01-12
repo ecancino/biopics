@@ -15,3 +15,4 @@ export const getUTCDate = (dateString = Date.now()) => {
 
 export const toDate = format('MM/DD/YYYY')
 export const fromDate = compose(format('MM/DD/YYYY'), getUTCDate)
+export const toYear = format('YYYY')
