@@ -1,13 +1,6 @@
 import React from 'react'
 
-import Combobox from 'react-widgets/lib/Combobox'
-//
-// let ListItem = (OK) => {
-//   return <span>
-//     <strong>{item.firstName}</strong>
-//     {" " + item.lastName}
-//   </span>
-// };
+import { Dropdown } from 'semantic-ui-react'
 
-export default ({ input, options, suggest = true, tabIndex = '-1', ...other }) =>
-  <Combobox {...input} data={options} suggest={suggest} tabIndex={tabIndex} {...other} />
+export default ({ input: { value, onChange }, options, suggest = true, tabIndex = '-1', ...other }) =>
+  <Dropdown fluid search selection value={value} onChange={(e, o) => onChange(o.value)} options={options} tabIndex={tabIndex} {...other} />

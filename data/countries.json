@@ -1,1252 +1,1252 @@
 [
   {
-    "id": "AF",
-    "name": "Afghanistan",
-    "flag": "https://restcountries.eu/data/afg.svg"
+    "value": "AF",
+    "text": "Afghanistan",
+    "flag": "af"
   },
   {
-    "id": "AX",
-    "name": "Åland Islands",
-    "flag": "https://restcountries.eu/data/ala.svg"
+    "value": "AX",
+    "text": "Åland Islands",
+    "flag": "ax"
   },
   {
-    "id": "AL",
-    "name": "Albania",
-    "flag": "https://restcountries.eu/data/alb.svg"
+    "value": "AL",
+    "text": "Albania",
+    "flag": "al"
   },
   {
-    "id": "DZ",
-    "name": "Algeria",
-    "flag": "https://restcountries.eu/data/dza.svg"
+    "value": "DZ",
+    "text": "Algeria",
+    "flag": "dz"
   },
   {
-    "id": "AS",
-    "name": "American Samoa",
-    "flag": "https://restcountries.eu/data/asm.svg"
+    "value": "AS",
+    "text": "American Samoa",
+    "flag": "as"
   },
   {
-    "id": "AD",
-    "name": "Andorra",
-    "flag": "https://restcountries.eu/data/and.svg"
+    "value": "AD",
+    "text": "Andorra",
+    "flag": "ad"
   },
   {
-    "id": "AO",
-    "name": "Angola",
-    "flag": "https://restcountries.eu/data/ago.svg"
+    "value": "AO",
+    "text": "Angola",
+    "flag": "ao"
   },
   {
-    "id": "AI",
-    "name": "Anguilla",
-    "flag": "https://restcountries.eu/data/aia.svg"
+    "value": "AI",
+    "text": "Anguilla",
+    "flag": "ai"
   },
   {
-    "id": "AQ",
-    "name": "Antarctica",
-    "flag": "https://restcountries.eu/data/ata.svg"
+    "value": "AQ",
+    "text": "Antarctica",
+    "flag": "aq"
   },
   {
-    "id": "AG",
-    "name": "Antigua and Barbuda",
-    "flag": "https://restcountries.eu/data/atg.svg"
+    "value": "AG",
+    "text": "Antigua and Barbuda",
+    "flag": "ag"
   },
   {
-    "id": "AR",
-    "name": "Argentina",
-    "flag": "https://restcountries.eu/data/arg.svg"
+    "value": "AR",
+    "text": "Argentina",
+    "flag": "ar"
   },
   {
-    "id": "AM",
-    "name": "Armenia",
-    "flag": "https://restcountries.eu/data/arm.svg"
+    "value": "AM",
+    "text": "Armenia",
+    "flag": "am"
   },
   {
-    "id": "AW",
-    "name": "Aruba",
-    "flag": "https://restcountries.eu/data/abw.svg"
+    "value": "AW",
+    "text": "Aruba",
+    "flag": "aw"
   },
   {
-    "id": "AU",
-    "name": "Australia",
-    "flag": "https://restcountries.eu/data/aus.svg"
+    "value": "AU",
+    "text": "Australia",
+    "flag": "au"
   },
   {
-    "id": "AT",
-    "name": "Austria",
-    "flag": "https://restcountries.eu/data/aut.svg"
+    "value": "AT",
+    "text": "Austria",
+    "flag": "at"
   },
   {
-    "id": "AZ",
-    "name": "Azerbaijan",
-    "flag": "https://restcountries.eu/data/aze.svg"
+    "value": "AZ",
+    "text": "Azerbaijan",
+    "flag": "az"
   },
   {
-    "id": "BS",
-    "name": "Bahamas",
-    "flag": "https://restcountries.eu/data/bhs.svg"
+    "value": "BS",
+    "text": "Bahamas",
+    "flag": "bs"
   },
   {
-    "id": "BH",
-    "name": "Bahrain",
-    "flag": "https://restcountries.eu/data/bhr.svg"
+    "value": "BH",
+    "text": "Bahrain",
+    "flag": "bh"
   },
   {
-    "id": "BD",
-    "name": "Bangladesh",
-    "flag": "https://restcountries.eu/data/bgd.svg"
+    "value": "BD",
+    "text": "Bangladesh",
+    "flag": "bd"
   },
   {
-    "id": "BB",
-    "name": "Barbados",
-    "flag": "https://restcountries.eu/data/brb.svg"
+    "value": "BB",
+    "text": "Barbados",
+    "flag": "bb"
   },
   {
-    "id": "BY",
-    "name": "Belarus",
-    "flag": "https://restcountries.eu/data/blr.svg"
+    "value": "BY",
+    "text": "Belarus",
+    "flag": "by"
   },
   {
-    "id": "BE",
-    "name": "Belgium",
-    "flag": "https://restcountries.eu/data/bel.svg"
+    "value": "BE",
+    "text": "Belgium",
+    "flag": "be"
   },
   {
-    "id": "BZ",
-    "name": "Belize",
-    "flag": "https://restcountries.eu/data/blz.svg"
+    "value": "BZ",
+    "text": "Belize",
+    "flag": "bz"
   },
   {
-    "id": "BJ",
-    "name": "Benin",
-    "flag": "https://restcountries.eu/data/ben.svg"
+    "value": "BJ",
+    "text": "Benin",
+    "flag": "bj"
   },
   {
-    "id": "BM",
-    "name": "Bermuda",
-    "flag": "https://restcountries.eu/data/bmu.svg"
+    "value": "BM",
+    "text": "Bermuda",
+    "flag": "bm"
   },
   {
-    "id": "BT",
-    "name": "Bhutan",
-    "flag": "https://restcountries.eu/data/btn.svg"
+    "value": "BT",
+    "text": "Bhutan",
+    "flag": "bt"
   },
   {
-    "id": "BO",
-    "name": "Bolivia (Plurinational State of)",
-    "flag": "https://restcountries.eu/data/bol.svg"
+    "value": "BO",
+    "text": "Bolivia (Plurinational State of)",
+    "flag": "bo"
   },
   {
-    "id": "BQ",
-    "name": "Bonaire, Sint Eustatius and Saba",
-    "flag": "https://restcountries.eu/data/bes.svg"
+    "value": "BQ",
+    "text": "Bonaire, Sint Eustatius and Saba",
+    "flag": "bq"
   },
   {
-    "id": "BA",
-    "name": "Bosnia and Herzegovina",
-    "flag": "https://restcountries.eu/data/bih.svg"
+    "value": "BA",
+    "text": "Bosnia and Herzegovina",
+    "flag": "ba"
   },
   {
-    "id": "BW",
-    "name": "Botswana",
-    "flag": "https://restcountries.eu/data/bwa.svg"
+    "value": "BW",
+    "text": "Botswana",
+    "flag": "bw"
   },
   {
-    "id": "BV",
-    "name": "Bouvet Island",
-    "flag": "https://restcountries.eu/data/bvt.svg"
+    "value": "BV",
+    "text": "Bouvet Island",
+    "flag": "bv"
   },
   {
-    "id": "BR",
-    "name": "Brazil",
-    "flag": "https://restcountries.eu/data/bra.svg"
+    "value": "BR",
+    "text": "Brazil",
+    "flag": "br"
   },
   {
-    "id": "IO",
-    "name": "British Indian Ocean Territory",
-    "flag": "https://restcountries.eu/data/iot.svg"
+    "value": "IO",
+    "text": "British Indian Ocean Territory",
+    "flag": "io"
   },
   {
-    "id": "UM",
-    "name": "United States Minor Outlying Islands",
-    "flag": "https://restcountries.eu/data/umi.svg"
+    "value": "UM",
+    "text": "United States Minor Outlying Islands",
+    "flag": "um"
   },
   {
-    "id": "VG",
-    "name": "Virgin Islands (British)",
-    "flag": "https://restcountries.eu/data/vgb.svg"
+    "value": "VG",
+    "text": "Virgin Islands (British)",
+    "flag": "vg"
   },
   {
-    "id": "VI",
-    "name": "Virgin Islands (U.S.)",
-    "flag": "https://restcountries.eu/data/vir.svg"
+    "value": "VI",
+    "text": "Virgin Islands (U.S.)",
+    "flag": "vi"
   },
   {
-    "id": "BN",
-    "name": "Brunei Darussalam",
-    "flag": "https://restcountries.eu/data/brn.svg"
+    "value": "BN",
+    "text": "Brunei Darussalam",
+    "flag": "bn"
   },
   {
-    "id": "BG",
-    "name": "Bulgaria",
-    "flag": "https://restcountries.eu/data/bgr.svg"
+    "value": "BG",
+    "text": "Bulgaria",
+    "flag": "bg"
   },
   {
-    "id": "BF",
-    "name": "Burkina Faso",
-    "flag": "https://restcountries.eu/data/bfa.svg"
+    "value": "BF",
+    "text": "Burkina Faso",
+    "flag": "bf"
   },
   {
-    "id": "BI",
-    "name": "Burundi",
-    "flag": "https://restcountries.eu/data/bdi.svg"
+    "value": "BI",
+    "text": "Burundi",
+    "flag": "bi"
   },
   {
-    "id": "KH",
-    "name": "Cambodia",
-    "flag": "https://restcountries.eu/data/khm.svg"
+    "value": "KH",
+    "text": "Cambodia",
+    "flag": "kh"
   },
   {
-    "id": "CM",
-    "name": "Cameroon",
-    "flag": "https://restcountries.eu/data/cmr.svg"
+    "value": "CM",
+    "text": "Cameroon",
+    "flag": "cm"
   },
   {
-    "id": "CA",
-    "name": "Canada",
-    "flag": "https://restcountries.eu/data/can.svg"
+    "value": "CA",
+    "text": "Canada",
+    "flag": "ca"
   },
   {
-    "id": "CV",
-    "name": "Cabo Verde",
-    "flag": "https://restcountries.eu/data/cpv.svg"
+    "value": "CV",
+    "text": "Cabo Verde",
+    "flag": "cv"
   },
   {
-    "id": "KY",
-    "name": "Cayman Islands",
-    "flag": "https://restcountries.eu/data/cym.svg"
+    "value": "KY",
+    "text": "Cayman Islands",
+    "flag": "ky"
   },
   {
-    "id": "CF",
-    "name": "Central African Republic",
-    "flag": "https://restcountries.eu/data/caf.svg"
+    "value": "CF",
+    "text": "Central African Republic",
+    "flag": "cf"
   },
   {
-    "id": "TD",
-    "name": "Chad",
-    "flag": "https://restcountries.eu/data/tcd.svg"
+    "value": "TD",
+    "text": "Chad",
+    "flag": "td"
   },
   {
-    "id": "CL",
-    "name": "Chile",
-    "flag": "https://restcountries.eu/data/chl.svg"
+    "value": "CL",
+    "text": "Chile",
+    "flag": "cl"
   },
   {
-    "id": "CN",
-    "name": "China",
-    "flag": "https://restcountries.eu/data/chn.svg"
+    "value": "CN",
+    "text": "China",
+    "flag": "cn"
   },
   {
-    "id": "CX",
-    "name": "Christmas Island",
-    "flag": "https://restcountries.eu/data/cxr.svg"
+    "value": "CX",
+    "text": "Christmas Island",
+    "flag": "cx"
   },
   {
-    "id": "CC",
-    "name": "Cocos (Keeling) Islands",
-    "flag": "https://restcountries.eu/data/cck.svg"
+    "value": "CC",
+    "text": "Cocos (Keeling) Islands",
+    "flag": "cc"
   },
   {
-    "id": "CO",
-    "name": "Colombia",
-    "flag": "https://restcountries.eu/data/col.svg"
+    "value": "CO",
+    "text": "Colombia",
+    "flag": "co"
   },
   {
-    "id": "KM",
-    "name": "Comoros",
-    "flag": "https://restcountries.eu/data/com.svg"
+    "value": "KM",
+    "text": "Comoros",
+    "flag": "km"
   },
   {
-    "id": "CG",
-    "name": "Congo",
-    "flag": "https://restcountries.eu/data/cog.svg"
+    "value": "CG",
+    "text": "Congo",
+    "flag": "cg"
   },
   {
-    "id": "CD",
-    "name": "Congo (Democratic Republic of the)",
-    "flag": "https://restcountries.eu/data/cod.svg"
+    "value": "CD",
+    "text": "Congo (Democratic Republic of the)",
+    "flag": "cd"
   },
   {
-    "id": "CK",
-    "name": "Cook Islands",
-    "flag": "https://restcountries.eu/data/cok.svg"
+    "value": "CK",
+    "text": "Cook Islands",
+    "flag": "ck"
   },
   {
-    "id": "CR",
-    "name": "Costa Rica",
-    "flag": "https://restcountries.eu/data/cri.svg"
+    "value": "CR",
+    "text": "Costa Rica",
+    "flag": "cr"
   },
   {
-    "id": "HR",
-    "name": "Croatia",
-    "flag": "https://restcountries.eu/data/hrv.svg"
+    "value": "HR",
+    "text": "Croatia",
+    "flag": "hr"
   },
   {
-    "id": "CU",
-    "name": "Cuba",
-    "flag": "https://restcountries.eu/data/cub.svg"
+    "value": "CU",
+    "text": "Cuba",
+    "flag": "cu"
   },
   {
-    "id": "CW",
-    "name": "Curaçao",
-    "flag": "https://restcountries.eu/data/cuw.svg"
+    "value": "CW",
+    "text": "Curaçao",
+    "flag": "cw"
   },
   {
-    "id": "CY",
-    "name": "Cyprus",
-    "flag": "https://restcountries.eu/data/cyp.svg"
+    "value": "CY",
+    "text": "Cyprus",
+    "flag": "cy"
   },
   {
-    "id": "CZ",
-    "name": "Czech Republic",
-    "flag": "https://restcountries.eu/data/cze.svg"
+    "value": "CZ",
+    "text": "Czech Republic",
+    "flag": "cz"
   },
   {
-    "id": "DK",
-    "name": "Denmark",
-    "flag": "https://restcountries.eu/data/dnk.svg"
+    "value": "DK",
+    "text": "Denmark",
+    "flag": "dk"
   },
   {
-    "id": "DJ",
-    "name": "Djibouti",
-    "flag": "https://restcountries.eu/data/dji.svg"
+    "value": "DJ",
+    "text": "Djibouti",
+    "flag": "dj"
   },
   {
-    "id": "DM",
-    "name": "Dominica",
-    "flag": "https://restcountries.eu/data/dma.svg"
+    "value": "DM",
+    "text": "Dominica",
+    "flag": "dm"
   },
   {
-    "id": "DO",
-    "name": "Dominican Republic",
-    "flag": "https://restcountries.eu/data/dom.svg"
+    "value": "DO",
+    "text": "Dominican Republic",
+    "flag": "do"
   },
   {
-    "id": "EC",
-    "name": "Ecuador",
-    "flag": "https://restcountries.eu/data/ecu.svg"
+    "value": "EC",
+    "text": "Ecuador",
+    "flag": "ec"
   },
   {
-    "id": "EG",
-    "name": "Egypt",
-    "flag": "https://restcountries.eu/data/egy.svg"
+    "value": "EG",
+    "text": "Egypt",
+    "flag": "eg"
   },
   {
-    "id": "SV",
-    "name": "El Salvador",
-    "flag": "https://restcountries.eu/data/slv.svg"
+    "value": "SV",
+    "text": "El Salvador",
+    "flag": "sv"
   },
   {
-    "id": "GQ",
-    "name": "Equatorial Guinea",
-    "flag": "https://restcountries.eu/data/gnq.svg"
+    "value": "GQ",
+    "text": "Equatorial Guinea",
+    "flag": "gq"
   },
   {
-    "id": "ER",
-    "name": "Eritrea",
-    "flag": "https://restcountries.eu/data/eri.svg"
+    "value": "ER",
+    "text": "Eritrea",
+    "flag": "er"
   },
   {
-    "id": "EE",
-    "name": "Estonia",
-    "flag": "https://restcountries.eu/data/est.svg"
+    "value": "EE",
+    "text": "Estonia",
+    "flag": "ee"
   },
   {
-    "id": "ET",
-    "name": "Ethiopia",
-    "flag": "https://restcountries.eu/data/eth.svg"
+    "value": "ET",
+    "text": "Ethiopia",
+    "flag": "et"
   },
   {
-    "id": "FK",
-    "name": "Falkland Islands (Malvinas)",
-    "flag": "https://restcountries.eu/data/flk.svg"
+    "value": "FK",
+    "text": "Falkland Islands (Malvinas)",
+    "flag": "fk"
   },
   {
-    "id": "FO",
-    "name": "Faroe Islands",
-    "flag": "https://restcountries.eu/data/fro.svg"
+    "value": "FO",
+    "text": "Faroe Islands",
+    "flag": "fo"
   },
   {
-    "id": "FJ",
-    "name": "Fiji",
-    "flag": "https://restcountries.eu/data/fji.svg"
+    "value": "FJ",
+    "text": "Fiji",
+    "flag": "fj"
   },
   {
-    "id": "FI",
-    "name": "Finland",
-    "flag": "https://restcountries.eu/data/fin.svg"
+    "value": "FI",
+    "text": "Finland",
+    "flag": "fi"
   },
   {
-    "id": "FR",
-    "name": "France",
-    "flag": "https://restcountries.eu/data/fra.svg"
+    "value": "FR",
+    "text": "France",
+    "flag": "fr"
   },
   {
-    "id": "GF",
-    "name": "French Guiana",
-    "flag": "https://restcountries.eu/data/guf.svg"
+    "value": "GF",
+    "text": "French Guiana",
+    "flag": "gf"
   },
   {
-    "id": "PF",
-    "name": "French Polynesia",
-    "flag": "https://restcountries.eu/data/pyf.svg"
+    "value": "PF",
+    "text": "French Polynesia",
+    "flag": "pf"
   },
   {
-    "id": "TF",
-    "name": "French Southern Territories",
-    "flag": "https://restcountries.eu/data/atf.svg"
+    "value": "TF",
+    "text": "French Southern Territories",
+    "flag": "tf"
   },
   {
-    "id": "GA",
-    "name": "Gabon",
-    "flag": "https://restcountries.eu/data/gab.svg"
+    "value": "GA",
+    "text": "Gabon",
+    "flag": "ga"
   },
   {
-    "id": "GM",
-    "name": "Gambia",
-    "flag": "https://restcountries.eu/data/gmb.svg"
+    "value": "GM",
+    "text": "Gambia",
+    "flag": "gm"
   },
   {
-    "id": "GE",
-    "name": "Georgia",
-    "flag": "https://restcountries.eu/data/geo.svg"
+    "value": "GE",
+    "text": "Georgia",
+    "flag": "ge"
   },
   {
-    "id": "DE",
-    "name": "Germany",
-    "flag": "https://restcountries.eu/data/deu.svg"
+    "value": "DE",
+    "text": "Germany",
+    "flag": "de"
   },
   {
-    "id": "GH",
-    "name": "Ghana",
-    "flag": "https://restcountries.eu/data/gha.svg"
+    "value": "GH",
+    "text": "Ghana",
+    "flag": "gh"
   },
   {
-    "id": "GI",
-    "name": "Gibraltar",
-    "flag": "https://restcountries.eu/data/gib.svg"
+    "value": "GI",
+    "text": "Gibraltar",
+    "flag": "gi"
   },
   {
-    "id": "GR",
-    "name": "Greece",
-    "flag": "https://restcountries.eu/data/grc.svg"
+    "value": "GR",
+    "text": "Greece",
+    "flag": "gr"
   },
   {
-    "id": "GL",
-    "name": "Greenland",
-    "flag": "https://restcountries.eu/data/grl.svg"
+    "value": "GL",
+    "text": "Greenland",
+    "flag": "gl"
   },
   {
-    "id": "GD",
-    "name": "Grenada",
-    "flag": "https://restcountries.eu/data/grd.svg"
+    "value": "GD",
+    "text": "Grenada",
+    "flag": "gd"
   },
   {
-    "id": "GP",
-    "name": "Guadeloupe",
-    "flag": "https://restcountries.eu/data/glp.svg"
+    "value": "GP",
+    "text": "Guadeloupe",
+    "flag": "gp"
   },
   {
-    "id": "GU",
-    "name": "Guam",
-    "flag": "https://restcountries.eu/data/gum.svg"
+    "value": "GU",
+    "text": "Guam",
+    "flag": "gu"
   },
   {
-    "id": "GT",
-    "name": "Guatemala",
-    "flag": "https://restcountries.eu/data/gtm.svg"
+    "value": "GT",
+    "text": "Guatemala",
+    "flag": "gt"
   },
   {
-    "id": "GG",
-    "name": "Guernsey",
-    "flag": "https://restcountries.eu/data/ggy.svg"
+    "value": "GG",
+    "text": "Guernsey",
+    "flag": "gg"
   },
   {
-    "id": "GN",
-    "name": "Guinea",
-    "flag": "https://restcountries.eu/data/gin.svg"
+    "value": "GN",
+    "text": "Guinea",
+    "flag": "gn"
   },
   {
-    "id": "GW",
-    "name": "Guinea-Bissau",
-    "flag": "https://restcountries.eu/data/gnb.svg"
+    "value": "GW",
+    "text": "Guinea-Bissau",
+    "flag": "gw"
   },
   {
-    "id": "GY",
-    "name": "Guyana",
-    "flag": "https://restcountries.eu/data/guy.svg"
+    "value": "GY",
+    "text": "Guyana",
+    "flag": "gy"
   },
   {
-    "id": "HT",
-    "name": "Haiti",
-    "flag": "https://restcountries.eu/data/hti.svg"
+    "value": "HT",
+    "text": "Haiti",
+    "flag": "ht"
   },
   {
-    "id": "HM",
-    "name": "Heard Island and McDonald Islands",
-    "flag": "https://restcountries.eu/data/hmd.svg"
+    "value": "HM",
+    "text": "Heard Island and McDonald Islands",
+    "flag": "hm"
   },
   {
-    "id": "VA",
-    "name": "Holy See",
-    "flag": "https://restcountries.eu/data/vat.svg"
+    "value": "VA",
+    "text": "Holy See",
+    "flag": "va"
   },
   {
-    "id": "HN",
-    "name": "Honduras",
-    "flag": "https://restcountries.eu/data/hnd.svg"
+    "value": "HN",
+    "text": "Honduras",
+    "flag": "hn"
   },
   {
-    "id": "HK",
-    "name": "Hong Kong",
-    "flag": "https://restcountries.eu/data/hkg.svg"
+    "value": "HK",
+    "text": "Hong Kong",
+    "flag": "hk"
   },
   {
-    "id": "HU",
-    "name": "Hungary",
-    "flag": "https://restcountries.eu/data/hun.svg"
+    "value": "HU",
+    "text": "Hungary",
+    "flag": "hu"
   },
   {
-    "id": "IS",
-    "name": "Iceland",
-    "flag": "https://restcountries.eu/data/isl.svg"
+    "value": "IS",
+    "text": "Iceland",
+    "flag": "is"
   },
   {
-    "id": "IN",
-    "name": "India",
-    "flag": "https://restcountries.eu/data/ind.svg"
+    "value": "IN",
+    "text": "India",
+    "flag": "in"
   },
   {
-    "id": "ID",
-    "name": "Indonesia",
-    "flag": "https://restcountries.eu/data/idn.svg"
+    "value": "value",
+    "text": "Indonesia",
+    "flag": "va"
   },
   {
-    "id": "CI",
-    "name": "Côte d'Ivoire",
-    "flag": "https://restcountries.eu/data/civ.svg"
+    "value": "CI",
+    "text": "Côte d'Ivoire",
+    "flag": "ci"
   },
   {
-    "id": "IR",
-    "name": "Iran (Islamic Republic of)",
-    "flag": "https://restcountries.eu/data/irn.svg"
+    "value": "IR",
+    "text": "Iran (Islamic Republic of)",
+    "flag": "ir"
   },
   {
-    "id": "IQ",
-    "name": "Iraq",
-    "flag": "https://restcountries.eu/data/irq.svg"
+    "value": "IQ",
+    "text": "Iraq",
+    "flag": "iq"
   },
   {
-    "id": "IE",
-    "name": "Ireland",
-    "flag": "https://restcountries.eu/data/irl.svg"
+    "value": "IE",
+    "text": "Ireland",
+    "flag": "ie"
   },
   {
-    "id": "IM",
-    "name": "Isle of Man",
-    "flag": "https://restcountries.eu/data/imn.svg"
+    "value": "IM",
+    "text": "Isle of Man",
+    "flag": "im"
   },
   {
-    "id": "IL",
-    "name": "Israel",
-    "flag": "https://restcountries.eu/data/isr.svg"
+    "value": "IL",
+    "text": "Israel",
+    "flag": "il"
   },
   {
-    "id": "IT",
-    "name": "Italy",
-    "flag": "https://restcountries.eu/data/ita.svg"
+    "value": "IT",
+    "text": "Italy",
+    "flag": "it"
   },
   {
-    "id": "JM",
-    "name": "Jamaica",
-    "flag": "https://restcountries.eu/data/jam.svg"
+    "value": "JM",
+    "text": "Jamaica",
+    "flag": "jm"
   },
   {
-    "id": "JP",
-    "name": "Japan",
-    "flag": "https://restcountries.eu/data/jpn.svg"
+    "value": "JP",
+    "text": "Japan",
+    "flag": "jp"
   },
   {
-    "id": "JE",
-    "name": "Jersey",
-    "flag": "https://restcountries.eu/data/jey.svg"
+    "value": "JE",
+    "text": "Jersey",
+    "flag": "je"
   },
   {
-    "id": "JO",
-    "name": "Jordan",
-    "flag": "https://restcountries.eu/data/jor.svg"
+    "value": "JO",
+    "text": "Jordan",
+    "flag": "jo"
   },
   {
-    "id": "KZ",
-    "name": "Kazakhstan",
-    "flag": "https://restcountries.eu/data/kaz.svg"
+    "value": "KZ",
+    "text": "Kazakhstan",
+    "flag": "kz"
   },
   {
-    "id": "KE",
-    "name": "Kenya",
-    "flag": "https://restcountries.eu/data/ken.svg"
+    "value": "KE",
+    "text": "Kenya",
+    "flag": "ke"
   },
   {
-    "id": "KI",
-    "name": "Kiribati",
-    "flag": "https://restcountries.eu/data/kir.svg"
+    "value": "KI",
+    "text": "Kiribati",
+    "flag": "ki"
   },
   {
-    "id": "KW",
-    "name": "Kuwait",
-    "flag": "https://restcountries.eu/data/kwt.svg"
+    "value": "KW",
+    "text": "Kuwait",
+    "flag": "kw"
   },
   {
-    "id": "KG",
-    "name": "Kyrgyzstan",
-    "flag": "https://restcountries.eu/data/kgz.svg"
+    "value": "KG",
+    "text": "Kyrgyzstan",
+    "flag": "kg"
   },
   {
-    "id": "LA",
-    "name": "Lao People's Democratic Republic",
-    "flag": "https://restcountries.eu/data/lao.svg"
+    "value": "LA",
+    "text": "Lao People's Democratic Republic",
+    "flag": "la"
   },
   {
-    "id": "LV",
-    "name": "Latvia",
-    "flag": "https://restcountries.eu/data/lva.svg"
+    "value": "LV",
+    "text": "Latvia",
+    "flag": "lv"
   },
   {
-    "id": "LB",
-    "name": "Lebanon",
-    "flag": "https://restcountries.eu/data/lbn.svg"
+    "value": "LB",
+    "text": "Lebanon",
+    "flag": "lb"
   },
   {
-    "id": "LS",
-    "name": "Lesotho",
-    "flag": "https://restcountries.eu/data/lso.svg"
+    "value": "LS",
+    "text": "Lesotho",
+    "flag": "ls"
   },
   {
-    "id": "LR",
-    "name": "Liberia",
-    "flag": "https://restcountries.eu/data/lbr.svg"
+    "value": "LR",
+    "text": "Liberia",
+    "flag": "lr"
   },
   {
-    "id": "LY",
-    "name": "Libya",
-    "flag": "https://restcountries.eu/data/lby.svg"
+    "value": "LY",
+    "text": "Libya",
+    "flag": "ly"
   },
   {
-    "id": "LI",
-    "name": "Liechtenstein",
-    "flag": "https://restcountries.eu/data/lie.svg"
+    "value": "LI",
+    "text": "Liechtenstein",
+    "flag": "li"
   },
   {
-    "id": "LT",
-    "name": "Lithuania",
-    "flag": "https://restcountries.eu/data/ltu.svg"
+    "value": "LT",
+    "text": "Lithuania",
+    "flag": "lt"
   },
   {
-    "id": "LU",
-    "name": "Luxembourg",
-    "flag": "https://restcountries.eu/data/lux.svg"
+    "value": "LU",
+    "text": "Luxembourg",
+    "flag": "lu"
   },
   {
-    "id": "MO",
-    "name": "Macao",
-    "flag": "https://restcountries.eu/data/mac.svg"
+    "value": "MO",
+    "text": "Macao",
+    "flag": "mo"
   },
   {
-    "id": "MK",
-    "name": "Macedonia (the former Yugoslav Republic of)",
-    "flag": "https://restcountries.eu/data/mkd.svg"
+    "value": "MK",
+    "text": "Macedonia (the former Yugoslav Republic of)",
+    "flag": "mk"
   },
   {
-    "id": "MG",
-    "name": "Madagascar",
-    "flag": "https://restcountries.eu/data/mdg.svg"
+    "value": "MG",
+    "text": "Madagascar",
+    "flag": "mg"
   },
   {
-    "id": "MW",
-    "name": "Malawi",
-    "flag": "https://restcountries.eu/data/mwi.svg"
+    "value": "MW",
+    "text": "Malawi",
+    "flag": "mw"
   },
   {
-    "id": "MY",
-    "name": "Malaysia",
-    "flag": "https://restcountries.eu/data/mys.svg"
+    "value": "MY",
+    "text": "Malaysia",
+    "flag": "my"
   },
   {
-    "id": "MV",
-    "name": "Maldives",
-    "flag": "https://restcountries.eu/data/mdv.svg"
+    "value": "MV",
+    "text": "Maldives",
+    "flag": "mv"
   },
   {
-    "id": "ML",
-    "name": "Mali",
-    "flag": "https://restcountries.eu/data/mli.svg"
+    "value": "ML",
+    "text": "Mali",
+    "flag": "ml"
   },
   {
-    "id": "MT",
-    "name": "Malta",
-    "flag": "https://restcountries.eu/data/mlt.svg"
+    "value": "MT",
+    "text": "Malta",
+    "flag": "mt"
   },
   {
-    "id": "MH",
-    "name": "Marshall Islands",
-    "flag": "https://restcountries.eu/data/mhl.svg"
+    "value": "MH",
+    "text": "Marshall Islands",
+    "flag": "mh"
   },
   {
-    "id": "MQ",
-    "name": "Martinique",
-    "flag": "https://restcountries.eu/data/mtq.svg"
+    "value": "MQ",
+    "text": "Martinique",
+    "flag": "mq"
   },
   {
-    "id": "MR",
-    "name": "Mauritania",
-    "flag": "https://restcountries.eu/data/mrt.svg"
+    "value": "MR",
+    "text": "Mauritania",
+    "flag": "mr"
   },
   {
-    "id": "MU",
-    "name": "Mauritius",
-    "flag": "https://restcountries.eu/data/mus.svg"
+    "value": "MU",
+    "text": "Mauritius",
+    "flag": "mu"
   },
   {
-    "id": "YT",
-    "name": "Mayotte",
-    "flag": "https://restcountries.eu/data/myt.svg"
+    "value": "YT",
+    "text": "Mayotte",
+    "flag": "yt"
   },
   {
-    "id": "MX",
-    "name": "Mexico",
-    "flag": "https://restcountries.eu/data/mex.svg"
+    "value": "MX",
+    "text": "Mexico",
+    "flag": "mx"
   },
   {
-    "id": "FM",
-    "name": "Micronesia (Federated States of)",
-    "flag": "https://restcountries.eu/data/fsm.svg"
+    "value": "FM",
+    "text": "Micronesia (Federated States of)",
+    "flag": "fm"
   },
   {
-    "id": "MD",
-    "name": "Moldova (Republic of)",
-    "flag": "https://restcountries.eu/data/mda.svg"
+    "value": "MD",
+    "text": "Moldova (Republic of)",
+    "flag": "md"
   },
   {
-    "id": "MC",
-    "name": "Monaco",
-    "flag": "https://restcountries.eu/data/mco.svg"
+    "value": "MC",
+    "text": "Monaco",
+    "flag": "mc"
   },
   {
-    "id": "MN",
-    "name": "Mongolia",
-    "flag": "https://restcountries.eu/data/mng.svg"
+    "value": "MN",
+    "text": "Mongolia",
+    "flag": "mn"
   },
   {
-    "id": "ME",
-    "name": "Montenegro",
-    "flag": "https://restcountries.eu/data/mne.svg"
+    "value": "ME",
+    "text": "Montenegro",
+    "flag": "me"
   },
   {
-    "id": "MS",
-    "name": "Montserrat",
-    "flag": "https://restcountries.eu/data/msr.svg"
+    "value": "MS",
+    "text": "Montserrat",
+    "flag": "ms"
   },
   {
-    "id": "MA",
-    "name": "Morocco",
-    "flag": "https://restcountries.eu/data/mar.svg"
+    "value": "MA",
+    "text": "Morocco",
+    "flag": "ma"
   },
   {
-    "id": "MZ",
-    "name": "Mozambique",
-    "flag": "https://restcountries.eu/data/moz.svg"
+    "value": "MZ",
+    "text": "Mozambique",
+    "flag": "mz"
   },
   {
-    "id": "MM",
-    "name": "Myanmar",
-    "flag": "https://restcountries.eu/data/mmr.svg"
+    "value": "MM",
+    "text": "Myanmar",
+    "flag": "mm"
   },
   {
-    "id": "NA",
-    "name": "Namibia",
-    "flag": "https://restcountries.eu/data/nam.svg"
+    "value": "NA",
+    "text": "Namibia",
+    "flag": "na"
   },
   {
-    "id": "NR",
-    "name": "Nauru",
-    "flag": "https://restcountries.eu/data/nru.svg"
+    "value": "NR",
+    "text": "Nauru",
+    "flag": "nr"
   },
   {
-    "id": "NP",
-    "name": "Nepal",
-    "flag": "https://restcountries.eu/data/npl.svg"
+    "value": "NP",
+    "text": "Nepal",
+    "flag": "np"
   },
   {
-    "id": "NL",
-    "name": "Netherlands",
-    "flag": "https://restcountries.eu/data/nld.svg"
+    "value": "NL",
+    "text": "Netherlands",
+    "flag": "nl"
   },
   {
-    "id": "NC",
-    "name": "New Caledonia",
-    "flag": "https://restcountries.eu/data/ncl.svg"
+    "value": "NC",
+    "text": "New Caledonia",
+    "flag": "nc"
   },
   {
-    "id": "NZ",
-    "name": "New Zealand",
-    "flag": "https://restcountries.eu/data/nzl.svg"
+    "value": "NZ",
+    "text": "New Zealand",
+    "flag": "nz"
   },
   {
-    "id": "NI",
-    "name": "Nicaragua",
-    "flag": "https://restcountries.eu/data/nic.svg"
+    "value": "NI",
+    "text": "Nicaragua",
+    "flag": "ni"
   },
   {
-    "id": "NE",
-    "name": "Niger",
-    "flag": "https://restcountries.eu/data/ner.svg"
+    "value": "NE",
+    "text": "Niger",
+    "flag": "ne"
   },
   {
-    "id": "NG",
-    "name": "Nigeria",
-    "flag": "https://restcountries.eu/data/nga.svg"
+    "value": "NG",
+    "text": "Nigeria",
+    "flag": "ng"
   },
   {
-    "id": "NU",
-    "name": "Niue",
-    "flag": "https://restcountries.eu/data/niu.svg"
+    "value": "NU",
+    "text": "Niue",
+    "flag": "nu"
   },
   {
-    "id": "NF",
-    "name": "Norfolk Island",
-    "flag": "https://restcountries.eu/data/nfk.svg"
+    "value": "NF",
+    "text": "Norfolk Island",
+    "flag": "nf"
   },
   {
-    "id": "KP",
-    "name": "Korea (Democratic People's Republic of)",
-    "flag": "https://restcountries.eu/data/prk.svg"
+    "value": "KP",
+    "text": "Korea (Democratic People's Republic of)",
+    "flag": "kp"
   },
   {
-    "id": "MP",
-    "name": "Northern Mariana Islands",
-    "flag": "https://restcountries.eu/data/mnp.svg"
+    "value": "MP",
+    "text": "Northern Mariana Islands",
+    "flag": "mp"
   },
   {
-    "id": "NO",
-    "name": "Norway",
-    "flag": "https://restcountries.eu/data/nor.svg"
+    "value": "NO",
+    "text": "Norway",
+    "flag": "no"
   },
   {
-    "id": "OM",
-    "name": "Oman",
-    "flag": "https://restcountries.eu/data/omn.svg"
+    "value": "OM",
+    "text": "Oman",
+    "flag": "om"
   },
   {
-    "id": "PK",
-    "name": "Pakistan",
-    "flag": "https://restcountries.eu/data/pak.svg"
+    "value": "PK",
+    "text": "Pakistan",
+    "flag": "pk"
   },
   {
-    "id": "PW",
-    "name": "Palau",
-    "flag": "https://restcountries.eu/data/plw.svg"
+    "value": "PW",
+    "text": "Palau",
+    "flag": "pw"
   },
   {
-    "id": "PS",
-    "name": "Palestine, State of",
-    "flag": "https://restcountries.eu/data/pse.svg"
+    "value": "PS",
+    "text": "Palestine, State of",
+    "flag": "ps"
   },
   {
-    "id": "PA",
-    "name": "Panama",
-    "flag": "https://restcountries.eu/data/pan.svg"
+    "value": "PA",
+    "text": "Panama",
+    "flag": "pa"
   },
   {
-    "id": "PG",
-    "name": "Papua New Guinea",
-    "flag": "https://restcountries.eu/data/png.svg"
+    "value": "PG",
+    "text": "Papua New Guinea",
+    "flag": "pg"
   },
   {
-    "id": "PY",
-    "name": "Paraguay",
-    "flag": "https://restcountries.eu/data/pry.svg"
+    "value": "PY",
+    "text": "Paraguay",
+    "flag": "py"
   },
   {
-    "id": "PE",
-    "name": "Peru",
-    "flag": "https://restcountries.eu/data/per.svg"
+    "value": "PE",
+    "text": "Peru",
+    "flag": "pe"
   },
   {
-    "id": "PH",
-    "name": "Philippines",
-    "flag": "https://restcountries.eu/data/phl.svg"
+    "value": "PH",
+    "text": "Philippines",
+    "flag": "ph"
   },
   {
-    "id": "PN",
-    "name": "Pitcairn",
-    "flag": "https://restcountries.eu/data/pcn.svg"
+    "value": "PN",
+    "text": "Pitcairn",
+    "flag": "pn"
   },
   {
-    "id": "PL",
-    "name": "Poland",
-    "flag": "https://restcountries.eu/data/pol.svg"
+    "value": "PL",
+    "text": "Poland",
+    "flag": "pl"
   },
   {
-    "id": "PT",
-    "name": "Portugal",
-    "flag": "https://restcountries.eu/data/prt.svg"
+    "value": "PT",
+    "text": "Portugal",
+    "flag": "pt"
   },
   {
-    "id": "PR",
-    "name": "Puerto Rico",
-    "flag": "https://restcountries.eu/data/pri.svg"
+    "value": "PR",
+    "text": "Puerto Rico",
+    "flag": "pr"
   },
   {
-    "id": "QA",
-    "name": "Qatar",
-    "flag": "https://restcountries.eu/data/qat.svg"
+    "value": "QA",
+    "text": "Qatar",
+    "flag": "qa"
   },
   {
-    "id": "XK",
-    "name": "Republic of Kosovo",
-    "flag": "https://restcountries.eu/data/kos.svg"
+    "value": "XK",
+    "text": "Republic of Kosovo",
+    "flag": "xk"
   },
   {
-    "id": "RE",
-    "name": "Réunion",
-    "flag": "https://restcountries.eu/data/reu.svg"
+    "value": "RE",
+    "text": "Réunion",
+    "flag": "re"
   },
   {
-    "id": "RO",
-    "name": "Romania",
-    "flag": "https://restcountries.eu/data/rou.svg"
+    "value": "RO",
+    "text": "Romania",
+    "flag": "ro"
   },
   {
-    "id": "RU",
-    "name": "Russian Federation",
-    "flag": "https://restcountries.eu/data/rus.svg"
+    "value": "RU",
+    "text": "Russian Federation",
+    "flag": "ru"
   },
   {
-    "id": "RW",
-    "name": "Rwanda",
-    "flag": "https://restcountries.eu/data/rwa.svg"
+    "value": "RW",
+    "text": "Rwanda",
+    "flag": "rw"
   },
   {
-    "id": "BL",
-    "name": "Saint Barthélemy",
-    "flag": "https://restcountries.eu/data/blm.svg"
+    "value": "BL",
+    "text": "Saint Barthélemy",
+    "flag": "bl"
   },
   {
-    "id": "SH",
-    "name": "Saint Helena, Ascension and Tristan da Cunha",
-    "flag": "https://restcountries.eu/data/shn.svg"
+    "value": "SH",
+    "text": "Saint Helena, Ascension and Tristan da Cunha",
+    "flag": "sh"
   },
   {
-    "id": "KN",
-    "name": "Saint Kitts and Nevis",
-    "flag": "https://restcountries.eu/data/kna.svg"
+    "value": "KN",
+    "text": "Saint Kitts and Nevis",
+    "flag": "kn"
   },
   {
-    "id": "LC",
-    "name": "Saint Lucia",
-    "flag": "https://restcountries.eu/data/lca.svg"
+    "value": "LC",
+    "text": "Saint Lucia",
+    "flag": "lc"
   },
   {
-    "id": "MF",
-    "name": "Saint Martin (French part)",
-    "flag": "https://restcountries.eu/data/maf.svg"
+    "value": "MF",
+    "text": "Saint Martin (French part)",
+    "flag": "mf"
   },
   {
-    "id": "PM",
-    "name": "Saint Pierre and Miquelon",
-    "flag": "https://restcountries.eu/data/spm.svg"
+    "value": "PM",
+    "text": "Saint Pierre and Miquelon",
+    "flag": "pm"
   },
   {
-    "id": "VC",
-    "name": "Saint Vincent and the Grenadines",
-    "flag": "https://restcountries.eu/data/vct.svg"
+    "value": "VC",
+    "text": "Saint Vincent and the Grenadines",
+    "flag": "vc"
   },
   {
-    "id": "WS",
-    "name": "Samoa",
-    "flag": "https://restcountries.eu/data/wsm.svg"
+    "value": "WS",
+    "text": "Samoa",
+    "flag": "ws"
   },
   {
-    "id": "SM",
-    "name": "San Marino",
-    "flag": "https://restcountries.eu/data/smr.svg"
+    "value": "SM",
+    "text": "San Marino",
+    "flag": "sm"
   },
   {
-    "id": "ST",
-    "name": "Sao Tome and Principe",
-    "flag": "https://restcountries.eu/data/stp.svg"
+    "value": "ST",
+    "text": "Sao Tome and Principe",
+    "flag": "st"
   },
   {
-    "id": "SA",
-    "name": "Saudi Arabia",
-    "flag": "https://restcountries.eu/data/sau.svg"
+    "value": "SA",
+    "text": "Saudi Arabia",
+    "flag": "sa"
   },
   {
-    "id": "SN",
-    "name": "Senegal",
-    "flag": "https://restcountries.eu/data/sen.svg"
+    "value": "SN",
+    "text": "Senegal",
+    "flag": "sn"
   },
   {
-    "id": "RS",
-    "name": "Serbia",
-    "flag": "https://restcountries.eu/data/srb.svg"
+    "value": "RS",
+    "text": "Serbia",
+    "flag": "rs"
   },
   {
-    "id": "SC",
-    "name": "Seychelles",
-    "flag": "https://restcountries.eu/data/syc.svg"
+    "value": "SC",
+    "text": "Seychelles",
+    "flag": "sc"
   },
   {
-    "id": "SL",
-    "name": "Sierra Leone",
-    "flag": "https://restcountries.eu/data/sle.svg"
+    "value": "SL",
+    "text": "Sierra Leone",
+    "flag": "sl"
   },
   {
-    "id": "SG",
-    "name": "Singapore",
-    "flag": "https://restcountries.eu/data/sgp.svg"
+    "value": "SG",
+    "text": "Singapore",
+    "flag": "sg"
   },
   {
-    "id": "SX",
-    "name": "Sint Maarten (Dutch part)",
-    "flag": "https://restcountries.eu/data/sxm.svg"
+    "value": "SX",
+    "text": "Sint Maarten (Dutch part)",
+    "flag": "sx"
   },
   {
-    "id": "SK",
-    "name": "Slovakia",
-    "flag": "https://restcountries.eu/data/svk.svg"
+    "value": "SK",
+    "text": "Slovakia",
+    "flag": "sk"
   },
   {
-    "id": "SI",
-    "name": "Slovenia",
-    "flag": "https://restcountries.eu/data/svn.svg"
+    "value": "SI",
+    "text": "Slovenia",
+    "flag": "si"
   },
   {
-    "id": "SB",
-    "name": "Solomon Islands",
-    "flag": "https://restcountries.eu/data/slb.svg"
+    "value": "SB",
+    "text": "Solomon Islands",
+    "flag": "sb"
   },
   {
-    "id": "SO",
-    "name": "Somalia",
-    "flag": "https://restcountries.eu/data/som.svg"
+    "value": "SO",
+    "text": "Somalia",
+    "flag": "so"
   },
   {
-    "id": "ZA",
-    "name": "South Africa",
-    "flag": "https://restcountries.eu/data/zaf.svg"
+    "value": "ZA",
+    "text": "South Africa",
+    "flag": "za"
   },
   {
-    "id": "GS",
-    "name": "South Georgia and the South Sandwich Islands",
-    "flag": "https://restcountries.eu/data/sgs.svg"
+    "value": "GS",
+    "text": "South Georgia and the South Sandwich Islands",
+    "flag": "gs"
   },
   {
-    "id": "KR",
-    "name": "Korea (Republic of)",
-    "flag": "https://restcountries.eu/data/kor.svg"
+    "value": "KR",
+    "text": "Korea (Republic of)",
+    "flag": "kr"
   },
   {
-    "id": "SS",
-    "name": "South Sudan",
-    "flag": "https://restcountries.eu/data/ssd.svg"
+    "value": "SS",
+    "text": "South Sudan",
+    "flag": "ss"
   },
   {
-    "id": "ES",
-    "name": "Spain",
-    "flag": "https://restcountries.eu/data/esp.svg"
+    "value": "ES",
+    "text": "Spain",
+    "flag": "es"
   },
   {
-    "id": "LK",
-    "name": "Sri Lanka",
-    "flag": "https://restcountries.eu/data/lka.svg"
+    "value": "LK",
+    "text": "Sri Lanka",
+    "flag": "lk"
   },
   {
-    "id": "SD",
-    "name": "Sudan",
-    "flag": "https://restcountries.eu/data/sdn.svg"
+    "value": "SD",
+    "text": "Sudan",
+    "flag": "sd"
   },
   {
-    "id": "SR",
-    "name": "Suriname",
-    "flag": "https://restcountries.eu/data/sur.svg"
+    "value": "SR",
+    "text": "Suriname",
+    "flag": "sr"
   },
   {
-    "id": "SJ",
-    "name": "Svalbard and Jan Mayen",
-    "flag": "https://restcountries.eu/data/sjm.svg"
+    "value": "SJ",
+    "text": "Svalbard and Jan Mayen",
+    "flag": "sj"
   },
   {
-    "id": "SZ",
-    "name": "Swaziland",
-    "flag": "https://restcountries.eu/data/swz.svg"
+    "value": "SZ",
+    "text": "Swaziland",
+    "flag": "sz"
   },
   {
-    "id": "SE",
-    "name": "Sweden",
-    "flag": "https://restcountries.eu/data/swe.svg"
+    "value": "SE",
+    "text": "Sweden",
+    "flag": "se"
   },
   {
-    "id": "CH",
-    "name": "Switzerland",
-    "flag": "https://restcountries.eu/data/che.svg"
+    "value": "CH",
+    "text": "Switzerland",
+    "flag": "ch"
   },
   {
-    "id": "SY",
-    "name": "Syrian Arab Republic",
-    "flag": "https://restcountries.eu/data/syr.svg"
+    "value": "SY",
+    "text": "Syrian Arab Republic",
+    "flag": "sy"
   },
   {
-    "id": "TW",
-    "name": "Taiwan",
-    "flag": "https://restcountries.eu/data/twn.svg"
+    "value": "TW",
+    "text": "Taiwan",
+    "flag": "tw"
   },
   {
-    "id": "TJ",
-    "name": "Tajikistan",
-    "flag": "https://restcountries.eu/data/tjk.svg"
+    "value": "TJ",
+    "text": "Tajikistan",
+    "flag": "tj"
   },
   {
-    "id": "TZ",
-    "name": "Tanzania, United Republic of",
-    "flag": "https://restcountries.eu/data/tza.svg"
+    "value": "TZ",
+    "text": "Tanzania, United Republic of",
+    "flag": "tz"
   },
   {
-    "id": "TH",
-    "name": "Thailand",
-    "flag": "https://restcountries.eu/data/tha.svg"
+    "value": "TH",
+    "text": "Thailand",
+    "flag": "th"
   },
   {
-    "id": "TL",
-    "name": "Timor-Leste",
-    "flag": "https://restcountries.eu/data/tls.svg"
+    "value": "TL",
+    "text": "Timor-Leste",
+    "flag": "tl"
   },
   {
-    "id": "TG",
-    "name": "Togo",
-    "flag": "https://restcountries.eu/data/tgo.svg"
+    "value": "TG",
+    "text": "Togo",
+    "flag": "tg"
   },
   {
-    "id": "TK",
-    "name": "Tokelau",
-    "flag": "https://restcountries.eu/data/tkl.svg"
+    "value": "TK",
+    "text": "Tokelau",
+    "flag": "tk"
   },
   {
-    "id": "TO",
-    "name": "Tonga",
-    "flag": "https://restcountries.eu/data/ton.svg"
+    "value": "TO",
+    "text": "Tonga",
+    "flag": "to"
   },
   {
-    "id": "TT",
-    "name": "Trinidad and Tobago",
-    "flag": "https://restcountries.eu/data/tto.svg"
+    "value": "TT",
+    "text": "Trinidad and Tobago",
+    "flag": "tt"
   },
   {
-    "id": "TN",
-    "name": "Tunisia",
-    "flag": "https://restcountries.eu/data/tun.svg"
+    "value": "TN",
+    "text": "Tunisia",
+    "flag": "tn"
   },
   {
-    "id": "TR",
-    "name": "Turkey",
-    "flag": "https://restcountries.eu/data/tur.svg"
+    "value": "TR",
+    "text": "Turkey",
+    "flag": "tr"
   },
   {
-    "id": "TM",
-    "name": "Turkmenistan",
-    "flag": "https://restcountries.eu/data/tkm.svg"
+    "value": "TM",
+    "text": "Turkmenistan",
+    "flag": "tm"
   },
   {
-    "id": "TC",
-    "name": "Turks and Caicos Islands",
-    "flag": "https://restcountries.eu/data/tca.svg"
+    "value": "TC",
+    "text": "Turks and Caicos Islands",
+    "flag": "tc"
   },
   {
-    "id": "TV",
-    "name": "Tuvalu",
-    "flag": "https://restcountries.eu/data/tuv.svg"
+    "value": "TV",
+    "text": "Tuvalu",
+    "flag": "tv"
   },
   {
-    "id": "UG",
-    "name": "Uganda",
-    "flag": "https://restcountries.eu/data/uga.svg"
+    "value": "UG",
+    "text": "Uganda",
+    "flag": "ug"
   },
   {
-    "id": "UA",
-    "name": "Ukraine",
-    "flag": "https://restcountries.eu/data/ukr.svg"
+    "value": "UA",
+    "text": "Ukraine",
+    "flag": "ua"
   },
   {
-    "id": "AE",
-    "name": "United Arab Emirates",
-    "flag": "https://restcountries.eu/data/are.svg"
+    "value": "AE",
+    "text": "United Arab Emirates",
+    "flag": "ae"
   },
   {
-    "id": "GB",
-    "name": "United Kingdom of Great Britain and Northern Ireland",
-    "flag": "https://restcountries.eu/data/gbr.svg"
+    "value": "GB",
+    "text": "Great Britain",
+    "flag": "gb"
   },
   {
-    "id": "US",
-    "name": "United States of America",
-    "flag": "https://restcountries.eu/data/usa.svg"
+    "value": "US",
+    "text": "United States of America",
+    "flag": "us"
   },
   {
-    "id": "UY",
-    "name": "Uruguay",
-    "flag": "https://restcountries.eu/data/ury.svg"
+    "value": "UY",
+    "text": "Uruguay",
+    "flag": "uy"
   },
   {
-    "id": "UZ",
-    "name": "Uzbekistan",
-    "flag": "https://restcountries.eu/data/uzb.svg"
+    "value": "UZ",
+    "text": "Uzbekistan",
+    "flag": "uz"
   },
   {
-    "id": "VU",
-    "name": "Vanuatu",
-    "flag": "https://restcountries.eu/data/vut.svg"
+    "value": "VU",
+    "text": "Vanuatu",
+    "flag": "vu"
   },
   {
-    "id": "VE",
-    "name": "Venezuela (Bolivarian Republic of)",
-    "flag": "https://restcountries.eu/data/ven.svg"
+    "value": "VE",
+    "text": "Venezuela (Bolivarian Republic of)",
+    "flag": "ve"
   },
   {
-    "id": "VN",
-    "name": "Viet Nam",
-    "flag": "https://restcountries.eu/data/vnm.svg"
+    "value": "VN",
+    "text": "Viet Nam",
+    "flag": "vn"
   },
   {
-    "id": "WF",
-    "name": "Wallis and Futuna",
-    "flag": "https://restcountries.eu/data/wlf.svg"
+    "value": "WF",
+    "text": "Wallis and Futuna",
+    "flag": "wf"
   },
   {
-    "id": "EH",
-    "name": "Western Sahara",
-    "flag": "https://restcountries.eu/data/esh.svg"
+    "value": "EH",
+    "text": "Western Sahara",
+    "flag": "eh"
   },
   {
-    "id": "YE",
-    "name": "Yemen",
-    "flag": "https://restcountries.eu/data/yem.svg"
+    "value": "YE",
+    "text": "Yemen",
+    "flag": "ye"
   },
   {
-    "id": "ZM",
-    "name": "Zambia",
-    "flag": "https://restcountries.eu/data/zmb.svg"
+    "value": "ZM",
+    "text": "Zambia",
+    "flag": "zm"
   },
   {
-    "id": "ZW",
-    "name": "Zimbabwe",
-    "flag": "https://restcountries.eu/data/zwe.svg"
+    "value": "ZW",
+    "text": "Zimbabwe",
+    "flag": "zw"
   }
 ]

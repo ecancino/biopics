@@ -18,8 +18,8 @@ const UserLink = ({ user }) =>
     </Card.Content>
     <Card.Content extra>
       <Button.Group fluid>
-        <Button compact size='small' color='violet' as={Link} to={`/user/${user.id}`} content='Edit' icon='edit' labelPosition='left' />
-        <Button compact basic size='small' color='violet' as='a' href={user.site} target='_blank' content='Site' icon='external' labelPosition='right' />
+        <Button compact size='small' color='violet' as={Link} to={`/user/${user.id}`} content='Edit' icon='write square' />
+        <Button compact basic size='small' color='violet' as='a' href={user.site} target='_blank' content='Site' icon='imdb' />
       </Button.Group>
     </Card.Content>
   </Card>

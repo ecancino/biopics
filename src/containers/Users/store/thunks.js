@@ -1,10 +1,15 @@
 import compose from 'ramda/src/compose'
-import path from 'ramda/src/path'
 
 import request from '../../../helpers/request'
-import { setUsers } from './actions'
+import { setUsers, setTotalCount } from './actions'
 
-export const requestUsers = () => dispatch =>
-  request.get(`/biopics?_page=1&_limit=20`)
-    .then(path(['data']))
+export const requestUsers = page => dispatch =>
+  request.get(`/biopics?_page=${page}&_limit=10`)
+    .then(({ data, headers }) => {
+      compose(dispatch, setUsers)(data)
+      compose(dispatch, setTotalCount, Number)(headers['x-total-count'])
+    })
+
+export const findUsers = q => dispatch =>
+  request.get(`/biopics?q=${1}`)
     .then(compose(dispatch, setUsers))
