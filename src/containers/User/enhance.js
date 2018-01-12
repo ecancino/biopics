@@ -5,17 +5,20 @@ import path from 'ramda/src/path'
 import isNil from 'ramda/src/isNil'
 
 import { dispatch } from '../../store'
-import { requestUser, saveUser } from './store/thunks'
+import { getData, saveUser } from './store/thunks'
 import { onMount, withSpinner } from '../../hocs'
 
 const hasUser = compose(isNil, path(['initialValues']))
 const withLoader = withSpinner(hasUser)
 
 const getUserId = path(['params', 'userId'])
-const getUser = compose(dispatch, requestUser, getUserId)
-const onLoad = onMount(getUser)
+const getUserData = compose(dispatch, getData, getUserId)
+const onLoad = onMount(getUserData)
 
-const withProps = connect(state => ({ initialValues: state.user }), { saveUser })
+const withProps = connect(
+  ({ user: { user, countries, types } }) => ({ initialValues: user, countries, types }), 
+  { saveUser }
+)
 
 const withForm = reduxForm({ form: 'user', enableReinitialize: true })
 

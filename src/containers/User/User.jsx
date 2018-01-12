@@ -8,17 +8,7 @@ import DatePicker from '../../components/DatePicker';
 
 import enhance from './enhance'
 
-const types = [
-  { text: 'Criminal', value: 'Criminal', key: 'CR' },
-  { text: 'Academic', value: 'Academic', key: 'AC' }
-]
-
-const countries = [
-  { text: 'UK', value: 'UK' },
-  { text: 'US', value: 'US' }
-]
-
-const User = ({ handleSubmit, pristine, reset, submitting, saveUser }) => (
+const User = ({ handleSubmit, pristine, reset, submitting, countries, types, saveUser }) => (
   <Form onSubmit={handleSubmit(saveUser)}>
     <Form.Field width={8}>
       <label htmlFor="title">Title</label>
@@ -42,7 +32,7 @@ const User = ({ handleSubmit, pristine, reset, submitting, saveUser }) => (
     </Form.Field>
     <Form.Field width={8}>
       <label htmlFor="country">Country</label>
-      <Field name="country" component={SelectField} options={countries} placeholder="Country" />
+      <Field name="country" component={SelectField} options={countries} textField='name' valueField='id' placeholder="Country" />
     </Form.Field>
     <Form.Field width={8}>
       <label htmlFor="lead_actor">Lead</label>
