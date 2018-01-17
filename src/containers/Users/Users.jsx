@@ -10,7 +10,7 @@ import enhance from './enhance'
 
 const countPages = compose(n => n | 0, divide)
 
-const Users = ({ users = [], totalCount = 0, perPage = 50, getUsers, theme: { primaryColor, secondaryColor } }) => (
+const Users = ({ users = [], currentPage = 1, totalCount = 0, perPage = 50, getUsers, theme: { primaryColor, secondaryColor } }) => (
   <Container>
     <Header as='h1' color={secondaryColor}>
       <Icon name='film' color={primaryColor} />
@@ -21,7 +21,7 @@ const Users = ({ users = [], totalCount = 0, perPage = 50, getUsers, theme: { pr
       <UserList users={users} />
     </Card.Group>
     <Divider />
-    <Pagination totalPages={ countPages(totalCount, perPage) || totalCount } onPageChange={getUsers} />
+    <Pagination activePage={currentPage} totalPages={countPages(totalCount, perPage)} onPageChange={getUsers} />
   </Container>
 );
 

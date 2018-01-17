@@ -14,7 +14,7 @@ export default () => (
   <Router history={history}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
-      <Route path="/users" component={Users} />
+      <Route path="/users(/:page)" component={Users} />
       <Route path="/user/:userId" component={User}/>
     </Route>
   </Router>

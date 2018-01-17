@@ -5,6 +5,7 @@ import ThemeProvider from '../components/Theme'
 const theme = {
   primaryColor: 'teal',
   secondaryColor: 'violet',
+  dangerColor: 'red',
 }
 
 export default ({ children }) =>

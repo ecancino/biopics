@@ -1,19 +1,12 @@
 import React from 'react';
-
 import { Container, Pagination } from 'semantic-ui-react'
 
-export default ({ totalPages, onPageChange }) =>
+export default ({ totalPages, onPageChange, activePage }) =>
   <Container textAlign='center'>
-    <Pagination
-      totalPages={totalPages}
+    <Pagination siblingRange={1} firstItem={null} lastItem={null} ellipsisItem={null} prevItem={null} nextItem={null}
       onPageChange={(e, { activePage }) => onPageChange(activePage)}
-      defaultActivePage={1}
+      totalPages={totalPages}
+      defaultActivePage={activePage}
       boundaryRange={3}
-      siblingRange={1}
-      firstItem={null}
-      lastItem={null}
-      ellipsisItem={null}
-      prevItem={null}
-      nextItem={null}
     />
   </Container>
