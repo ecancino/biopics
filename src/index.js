@@ -12,7 +12,4 @@ import localizer from 'react-widgets-dates'
 // a11y(React, ReactDOM)
 localizer()
 
-ReactDOM.render(
-  <Root />,
-  document.querySelector('#root')
-);
+ReactDOM.render(<Root />, document.querySelector('#root'));

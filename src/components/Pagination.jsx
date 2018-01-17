@@ -7,7 +7,8 @@ export default ({ totalPages, onPageChange }) =>
     <Pagination
       totalPages={totalPages}
       onPageChange={(e, { activePage }) => onPageChange(activePage)}
-      boundaryRange={5}
+      defaultActivePage={1}
+      boundaryRange={3}
       siblingRange={1}
       firstItem={null}
       lastItem={null}

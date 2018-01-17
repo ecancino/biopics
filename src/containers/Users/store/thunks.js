@@ -3,8 +3,8 @@ import compose from 'ramda/src/compose'
 import request from '../../../helpers/request'
 import { setUsers, setTotalCount } from './actions'
 
-export const requestUsers = page => dispatch =>
-  request.get(`/biopics?_page=${page}&_limit=10`)
+export const requestUsers = (page = 1) => dispatch =>
+  request.get(`/biopics?_page=${page}&_limit=50`)
     .then(({ data, headers }) => {
       compose(dispatch, setUsers)(data)
       compose(dispatch, setTotalCount, Number)(headers['x-total-count'])

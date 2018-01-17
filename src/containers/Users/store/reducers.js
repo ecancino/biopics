@@ -6,5 +6,5 @@ export default createReducer({
     [setUsers]: (state, users) => merge(state, { users }),
     [setTotalCount]: (state, totalCount) => merge(state, { totalCount }),
   },
-  { users: [], totalCount: 0, perPage: 10 }
+  { users: [], totalCount: 0, perPage: 50 }
 )

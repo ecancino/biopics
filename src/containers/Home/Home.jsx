@@ -2,8 +2,7 @@ import React from 'react'
 
 import { Container, Header } from 'semantic-ui-react'
 
-
-const Home = () => (
+const Home = () =>
   <Container>
     <Header as='h1'>
       Welcome!
@@ -14,6 +13,5 @@ const Home = () => (
       They differ from films "based on a true story" or "historical drama films" in that they attempt to comprehensively tell a single person's life story or at least the most historically important years of their lives.
     </p>
   </Container>
-)
 
 export default Home

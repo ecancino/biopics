@@ -1,6 +1,7 @@
 import React from 'react'
 import { Field } from 'redux-form'
-import { Form, Button } from 'semantic-ui-react'
+import { Link } from 'react-router'
+import { Form, Button, Icon, Divider } from 'semantic-ui-react'
 
 import TextField from '../../components/TextField';
 import SelectField from '../../components/SelectField';
@@ -11,6 +12,11 @@ import enhance from './enhance'
 
 const User = ({ handleSubmit, pristine, reset, submitting, countries, types, saveUser }) => (
   <Form onSubmit={handleSubmit(saveUser)}>
+    <Link to='/users'>
+      <Icon name='chevron left' size='small' />
+      Back
+    </Link>
+    <Divider />
     <Form.Group widths='equal'>
       <Form.Field>
         <label htmlFor='title'>Title</label>

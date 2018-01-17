@@ -8,7 +8,7 @@ import { dispatch } from '../../store'
 import { getData, saveUser } from './store/thunks'
 import { onMount, withSpinner } from '../../hocs'
 
-const hasUser = compose(isNil, path(['initialValues']))
+const hasUser = compose(isNil, path(['initialValues', 'id']))
 const withLoader = withSpinner(hasUser)
 
 const getUserId = path(['params', 'userId'])
@@ -16,7 +16,7 @@ const getUserData = compose(dispatch, getData, getUserId)
 const onLoad = onMount(getUserData)
 
 const withProps = connect(
-  ({ user: { user, countries, types } }) => ({ initialValues: user, countries, types }), 
+  ({ user: { user, countries, types } }) => ({ initialValues: user, countries, types }),
   { saveUser }
 )
 

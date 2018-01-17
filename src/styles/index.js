@@ -1,6 +1,6 @@
 import { StyleSheet } from 'aphrodite';
 
-const styles = StyleSheet.create({
+export default StyleSheet.create({
   appContainer: {
     padding: '.8em',
   },
@@ -19,5 +19,3 @@ const styles = StyleSheet.create({
   },
   datePicker: {}
 });
-
-export default styles

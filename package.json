@@ -1,7 +1,8 @@
 {
   "name": "poc-nh-app",
   "description": null,
-  "version": "0.0.303",
+  "version": "0.1.0",
+  "license": "MIT",
   "dependencies": {
     "aphrodite": "1.2.5",
     "axios": "0.17.1",
