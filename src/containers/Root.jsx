@@ -4,11 +4,11 @@ import ThemeProvider from '../providers/theme'
 import RouterProvider from '../providers/router'
 
 const Root = () => (
-  <ReduxProvider>
-    <ThemeProvider>
+  <ThemeProvider>
+    <ReduxProvider>
       <RouterProvider />
-    </ThemeProvider>
-  </ReduxProvider>
+    </ReduxProvider>
+  </ThemeProvider>
 )
 
 export default Root

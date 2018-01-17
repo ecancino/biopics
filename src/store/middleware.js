@@ -1,3 +1,4 @@
+import compose from 'ramda/src/compose'
 import { applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk'
@@ -8,4 +9,6 @@ const devTools = composeWithDevTools({
   actionsBlacklist: ['@@router']
 })
 
-export default devTools(applyMiddleware(thunk))
+const middleware = compose(devTools, applyMiddleware)
+
+export default middleware(thunk) //, logger)
