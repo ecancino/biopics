@@ -6,9 +6,10 @@ import { requestUsers } from './store/thunks'
 import { onMount, withSpinner, theme } from '../../hocs'
 
 const onLoad = onMount(compose(dispatch, ({ params: { page } }) => requestUsers(page)))
-const withLoader = withSpinner(({ users = [] }) => !users.length)
+const withLoader = withSpinner(({ users, errorMessage }) => !users && !errorMessage)
 
-const stateProps = ({ users: { users, currentPage, totalCount, perPage } }) => ({ users, currentPage, totalCount, perPage })
+const stateProps = ({ users: { users, errorMessage, currentPage, totalCount, perPage } }) =>
+  ({ users, errorMessage, currentPage, totalCount, perPage })
 const dispatchProps = dispatch => ({ getUsers: compose(dispatch, requestUsers) })
 const withProps = connect(stateProps, dispatchProps)
 

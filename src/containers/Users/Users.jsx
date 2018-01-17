@@ -8,20 +8,31 @@ import Pagination from '../../components/Pagination'
 import UserList from './components/UserList'
 import enhance from './enhance'
 
-const countPages = compose(n => n | 0, divide)
+const countPages = compose(n => n | 1, divide)
 
-const Users = ({ users = [], currentPage = 1, totalCount = 0, perPage = 50, getUsers, theme: { primaryColor, secondaryColor } }) => (
+const Users = ({ users = [], errorMessage, currentPage = 1, totalCount = 0, perPage = 50, getUsers, theme: { primaryColor, secondaryColor } }) => (
   <Container>
-    <Header as='h1' color={secondaryColor}>
-      <Icon name='film' color={primaryColor} />
-      Biopics
-    </Header>
-    <Divider />
-    <Card.Group itemsPerRow={2}>
-      <UserList users={users} />
-    </Card.Group>
-    <Divider />
-    <Pagination activePage={currentPage} totalPages={countPages(totalCount, perPage)} onPageChange={getUsers} />
+    {!errorMessage ?
+      (
+      <div>
+        <Header as='h1' color={secondaryColor}>
+          <Icon name='film' color={primaryColor} />
+          Biopics
+        </Header>
+        <Divider />
+        <Card.Group itemsPerRow={2}>
+          <UserList users={users} />
+        </Card.Group>
+        <Divider />
+        <Pagination activePage={currentPage} totalPages={countPages(totalCount, perPage)} onPageChange={getUsers} />
+      </div>
+    ) :
+    (
+      <Header as='h1' color={secondaryColor}>
+        {errorMessage}
+      </Header>
+    )
+    }
   </Container>
 );
 
