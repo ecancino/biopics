@@ -6,7 +6,7 @@ import compose from 'ramda/src/compose'
 import { Icon, Button, Flag, Card, Image } from 'semantic-ui-react'
 import { toYear } from '../../../helpers/dates'
 import toLower from 'mellotron/toLower'
-import { theme } from '../../../hocs'
+import { withTheme } from '../../../hocs'
 import UserLink from './UserLink'
 
 import { deleteUser } from '../store/thunks'
@@ -15,7 +15,7 @@ const stateProps = ({ users: { currentPage } }) => ({ currentPage })
 const dispatchProps = dispatch => ({ deleteUser: compose(dispatch, deleteUser) })
 const withProps = connect(stateProps, dispatchProps)
 
-const enhance = compose(withProps, theme)
+const enhance = compose(withProps, withTheme)
 
 const UserCard = ({ user, currentPage, deleteUser, theme: { primaryColor, secondaryColor, dangerColor } }) =>
   <Card raised role='group' tabIndex='-1'>

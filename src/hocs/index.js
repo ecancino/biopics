@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import { lifecycle, branch, renderComponent } from 'recompose'
+import { lifecycle, branch, renderComponent, getContext } from 'recompose'
 
 import Spinner from '../components/Spinner'
 import Message from '../components/Message'
@@ -15,15 +14,4 @@ export const onMount = onLoad => lifecycle({
   }
 })
 
-export const theme = Wrapped =>
-  class ThemeComponent extends Component {
-    static contextTypes = {
-      theme: PropTypes.object.isRequired,
-    }
-    render() {
-      const { theme } = this.context
-      return (
-        <Wrapped {...this.props} theme={theme} />
-      )
-    }
-  }
+export const withTheme = getContext({ theme: PropTypes.object })

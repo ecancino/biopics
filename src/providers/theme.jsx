@@ -1,6 +1,6 @@
 import React from 'react'
-
-import ThemeProvider from '../components/Theme'
+import PropTypes from 'prop-types'
+import { withContext } from 'recompose'
 
 const theme = {
   primaryColor: 'teal',
@@ -8,5 +8,6 @@ const theme = {
   dangerColor: 'red',
 }
 
-export default ({ children }) =>
-  <ThemeProvider theme={theme}>{children}</ThemeProvider>
+const ThemeProvider = theme => withContext({ theme: PropTypes.object }, () => ({ theme }))
+
+export default ThemeProvider(theme)
