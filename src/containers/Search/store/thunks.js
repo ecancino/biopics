@@ -1,5 +1,4 @@
 import compose from 'ramda/src/compose'
-
 import { setResults, setLoading } from './actions'
 import { findBiopics } from '../../../store/thunks'
 import validInput from '../../../helpers/validInput'
