@@ -1,20 +1,14 @@
 import compose from 'ramda/src/compose'
-import evolve from 'ramda/src/evolve'
 import path from 'ramda/src/path'
 
 import request from '../../../helpers/request'
-import renameKeys from '../../../helpers/renameKeys'
+import fromUsers from '../helpers/fromUsers'
 import { history } from '../../../providers/router'
-import { setUsers, setTotalCount, setPage, setError } from './actions'
-
-const fromData = compose(
-  evolve({ totalCount: compose(Number, path(['x-total-count'])) }),
-  renameKeys({ data: 'users', headers: 'totalCount' })
-)
+import { setUsers, setTotalCount, setPage, setError, updateUser } from './actions'
 
 export const requestUsers = (page = 1) => dispatch =>
   request.get(`/biopics?_page=${page}&_limit=50`)
-    .then(fromData)
+    .then(fromUsers)
     .then(({ users, totalCount }) => {
       history.push(`/users/${page}`)
       compose(dispatch, setError)(path(['length'], users) ? undefined : 'No users')
@@ -22,6 +16,10 @@ export const requestUsers = (page = 1) => dispatch =>
       compose(dispatch, setUsers)(users)
       compose(dispatch, setTotalCount)(totalCount)
     })
+
+export const changeUser = user => dispatch =>
+  request.patch(`/biopics/${user.id}`, user)
+    .then(() => compose(dispatch, updateUser)(user))
 
 export const deleteUser = (userId, currentPage) => dispatch =>
   request.delete(`/biopics/${userId}`)

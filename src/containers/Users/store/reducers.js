@@ -1,12 +1,17 @@
 import { createReducer } from 'redux-act'
 import merge from 'ramda/src/merge'
-import { setUsers, setTotalCount, setPage, setError } from './actions'
+
+import { setUsers, setTotalCount, setPage, setError, updateUser } from './actions'
+
+import mergeProp from '../helpers/mergeProp'
+import updateUsers from '../helpers/updateUsers'
 
 export default createReducer({
-    [setUsers]: (state, users) => merge(state, { users }),
-    [setTotalCount]: (state, totalCount) => merge(state, { totalCount }),
-    [setPage]: (state, currentPage) => merge(state, { currentPage }),
-    [setError]: (state, errorMessage) => merge(state, { errorMessage }),
+    [setUsers]: mergeProp('users'),
+    [setTotalCount]: mergeProp('totalCount'),
+    [setPage]: mergeProp('currentPage'),
+    [setError]: mergeProp('errorMessage'),
+    [updateUser]: (state, user) => merge(state, { users: updateUsers(user.id, state.users, user) })
   },
   { users: [], totalCount: 0, perPage: 50, currentPage: 1 }
 )

@@ -4,25 +4,29 @@ import { Link } from 'react-router'
 import withMotif from 'react-motif/withMotif'
 import compose from 'ramda/src/compose'
 
-import { Icon, Button, Flag, Card, Image } from 'semantic-ui-react'
+import { Button, Flag, Card } from 'semantic-ui-react'
 import { toYear } from '../../../helpers/dates'
+import toggleProp from '../helpers/toggleProp'
 import toLower from 'mellotron/toLower'
 import UserLink from './UserLink'
 
-import { deleteUser } from '../store/thunks'
+import { deleteUser, changeUser } from '../store/thunks'
 
 const stateProps = ({ users: { currentPage } }) => ({ currentPage })
-const dispatchProps = dispatch => ({ deleteUser: compose(dispatch, deleteUser) })
+const dispatchProps = dispatch => ({
+  deleteUser: compose(dispatch, deleteUser),
+  changeUser: compose(dispatch, changeUser, toggleProp('active'))
+})
 const withProps = connect(stateProps, dispatchProps)
 
 const enhance = compose(withProps, withMotif)
 
-const UserCard = ({ user, currentPage, deleteUser, motif: { teal, violet, red } }) =>
-  <Card raised role='group' tabIndex='-1'>
+const UserCard = ({ user, currentPage, deleteUser, changeUser, motif: { teal, violet, red, grey } }) =>
+  <Card raised={user.active} role='group' tabIndex='-1' color={ user.active ? teal : grey }>
     <Card.Content>
       <Card.Header>
         {user.subject}
-        <Image as={Icon} name='user' circular size='small' floated='right' color={ user.active ? teal : 'grey' } />
+        <Button icon='user' onClick={() => changeUser(user)} circular size='mini' floated='right' color={ user.active ? teal : grey } />
       </Card.Header>
       <Card.Description>
         <Flag name={toLower(user.country)} />

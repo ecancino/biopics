@@ -7,3 +7,5 @@ export const setTotalCount = createAction('SET_TOTAL_COUNT')
 export const setPage = createAction('SET_PAGE')
 
 export const setError = createAction('SET_ERROR')
+
+export const updateUser = createAction('UPDATE_USER')
