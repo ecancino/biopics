@@ -7,6 +7,7 @@ import App from '../containers/App/App'
 import Home from '../containers/Home/Home'
 import Users from '../containers/Users/Users'
 import User from '../containers/User/User'
+import Search from '../containers/Search/Search'
 
 export const history = syncHistoryWithStore(hashHistory, store)
 
@@ -16,6 +17,7 @@ export default () => (
       <IndexRoute component={Home} />
       <Route path="/users(/:page)" component={Users} />
       <Route path="/user/:userId" component={User}/>
+      <Route path="/search" component={Search}/>
     </Route>
   </Router>
 )

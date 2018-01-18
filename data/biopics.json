@@ -3464,7 +3464,7 @@
     "director": "Richard Eyre",
     "subject": "Iris Murdoch",
     "type": "Author",
-    "lead_actor": "Judi Dench and Kate Winslet",
+    "lead_actor": "Judi Dench",
     "active": true
   },
   {
@@ -9141,6 +9141,18 @@
     "subject": "Waris Dirie",
     "type": "Activist",
     "lead_actor": "Soraya Omar-Scego",
+    "active": true
+  },
+  {
+    "id": 289,
+    "title": "Iris",
+    "site": "http://www.imdb.com/title/tt0280778/",
+    "country": "GB",
+    "year_release": "2001-01-01",
+    "director": "Richard Eyre",
+    "subject": "Iris Murdoch",
+    "type": "Author",
+    "lead_actor": "Kate Winslet",
     "active": true
   }
 ]

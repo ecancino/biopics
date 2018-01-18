@@ -3,8 +3,8 @@ import merge from 'ramda/src/merge'
 
 import { setUsers, setTotalCount, setPage, setError, updateUser } from './actions'
 
-import mergeProp from '../helpers/mergeProp'
-import updateUsers from '../helpers/updateUsers'
+import mergeProp from '../../../helpers/mergeProp'
+import updateUsers from '../../../helpers/updateUsers'
 
 export default createReducer({
     [setUsers]: mergeProp('users'),

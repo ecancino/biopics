@@ -24,7 +24,3 @@ export const changeUser = user => dispatch =>
 export const deleteUser = (userId, currentPage) => dispatch =>
   request.delete(`/biopics/${userId}`)
     .then(() => compose(dispatch, requestUsers)(currentPage))
-
-export const findUsers = q => dispatch =>
-  request.get(`/biopics?q=${1}`)
-    .then(compose(dispatch, setUsers))
