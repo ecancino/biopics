@@ -10,8 +10,8 @@ import Check from '../../components/Check';
 
 import enhance from './enhance'
 
-const User = ({ handleSubmit, pristine, reset, submitting, countries, types, saveUser }) => (
-  <Form onSubmit={handleSubmit(saveUser)}>
+const User = ({ handleSubmit, pristine, reset, submitting, countries, types, saveBiopic }) => (
+  <Form onSubmit={handleSubmit(saveBiopic)}>
     <Link to='/users'>
       <Icon name='chevron left' size='small' />
       Back

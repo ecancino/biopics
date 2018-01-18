@@ -1,26 +1,37 @@
 import compose from 'ramda/src/compose'
 import path from 'ramda/src/path'
 
-import request from '../../../helpers/request'
-import fromUsers from '../helpers/fromUsers'
+import validInput from '../../../helpers/validInput'
 import { history } from '../../../providers/router'
-import { setUsers, setTotalCount, setPage, setError, updateUser } from './actions'
+import { setBiopics, setTotalCount, setPage, setError, updateBiopic, setLoading } from './actions'
+import { getBiopics, findBiopics, patchBiopic, deleteBiopic } from '../../../store/thunks'
 
-export const requestUsers = (page = 1) => dispatch =>
-  request.get(`/biopics?_page=${page}&_limit=50`)
-    .then(fromUsers)
+export const requestBiopics = (page = 1) => dispatch =>
+  getBiopics(page)
     .then(({ users, totalCount }) => {
-      history.push(`/users/${page}`)
+      history.replace(`/biopics/${page}`)
       compose(dispatch, setError)(path(['length'], users) ? undefined : 'No users')
       compose(dispatch, setPage)(page)
-      compose(dispatch, setUsers)(users)
+      compose(dispatch, setBiopics)(users)
       compose(dispatch, setTotalCount)(totalCount)
     })
 
-export const changeUser = user => dispatch =>
-  request.patch(`/biopics/${user.id}`, user)
-    .then(() => compose(dispatch, updateUser)(user))
+export const changeBiopic = user => dispatch =>
+  patchBiopic(user)
+    .then(() => compose(dispatch, updateBiopic)(user))
 
-export const deleteUser = (userId, currentPage) => dispatch =>
-  request.delete(`/biopics/${userId}`)
-    .then(() => compose(dispatch, requestUsers)(currentPage))
+export const removeBiopic = (userId, currentPage) => dispatch =>
+  deleteBiopic(userId)
+    .then(() => compose(dispatch, requestBiopics)(currentPage))
+
+export const searchBiopics = value => dispatch => {
+  const toggleLoading = compose(dispatch, setLoading)
+  const updateResults = compose(dispatch, setBiopics)
+  toggleLoading(true)
+  updateResults([])
+  const term = validInput(value)
+  if (term === null) return
+  findBiopics(term)
+    .then(updateResults)
+    .then(() => toggleLoading(false))
+}

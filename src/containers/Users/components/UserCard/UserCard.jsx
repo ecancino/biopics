@@ -8,13 +8,13 @@ import UserLink from '../UserLink'
 
 import enhance from './enhance'
 
-const UserCard = ({ user, currentPage, deleteUser, changeUser, motif: { teal, violet, red, activeColor } }) =>
+const UserCard = ({ user, currentPage, removeBiopic, changeBiopic, motif: { teal, violet, red, activeColor } }) =>
   <Card raised={user.active} role='group' tabIndex='-1' color={activeColor(user.active)}>
     <Card.Content>
       <Card.Header>
         <Popup size='mini' trigger={<Icon size='small' name='bookmark' />} content={user.type} />
         {user.subject}
-        <Button icon='user' onClick={() => changeUser(user)} circular size='mini' floated='right' color={activeColor(user.active)} />
+        <Button icon='user' onClick={() => changeBiopic(user)} circular size='mini' floated='right' color={activeColor(user.active)} />
       </Card.Header>
       <Card.Description>
         <Flag name={toLower(user.country)} />
@@ -27,8 +27,8 @@ const UserCard = ({ user, currentPage, deleteUser, changeUser, motif: { teal, vi
     </Card.Content>
     <Card.Content extra>
       <Button.Group fluid>
-        <UserLink color={violet} as={Link} to={`/user/${user.id}`} icon='write' />
-        <UserLink color={red} onClick={() => deleteUser(user.id, currentPage)} icon='delete' />
+        <UserLink color={violet} as={Link} to={`/biopic/${user.id}`} icon='write' />
+        <UserLink color={red} onClick={() => removeBiopic(user.id, currentPage)} icon='delete' />
         <UserLink color={teal} href={user.site} target='_blank' icon='external' />
       </Button.Group>
     </Card.Content>

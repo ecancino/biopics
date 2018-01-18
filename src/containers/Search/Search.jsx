@@ -6,17 +6,17 @@ import UserList from '../Users/components/UserList'
 import enhance from './enhance'
 
 const Search = ({
-  results = [], loading, findUsers, motif: { violet, teal }
+  biopics = [], loading, searchBiopics, motif: { violet, teal }
 }) => (
   <Container fluid>
     <Header as='h1' color={violet}>
       <Icon name='search' color={teal} />
       Results
     </Header>
-    <Input fluid name='q' loading={loading} icon='search' placeholder='Search...' onChange={findUsers} />
+    <Input fluid name='q' loading={loading} icon='search' placeholder='Search...' onChange={searchBiopics} />
     <Divider />
-    <Card.Group itemsPerRow={2} style={{ display: results.length ? 'flex' : 'none' }}>
-      <UserList users={results} />
+    <Card.Group itemsPerRow={2} style={{ display: biopics.length ? 'flex' : 'none' }}>
+      <UserList users={biopics} />
     </Card.Group>
   </Container>
 );

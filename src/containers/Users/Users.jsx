@@ -7,7 +7,7 @@ import UserList from './components/UserList'
 import enhance from './enhance'
 
 const Users = ({
-  users = [], currentPage = 1, totalCount = 0, perPage = 50, getUsers, motif: { teal, violet }
+  biopics = [], currentPage = 1, totalCount = 0, perPage = 50, getBiopics, motif: { teal, violet }
 }) => (
   <Container fluid>
     <Header as='h1' color={violet}>
@@ -16,11 +16,11 @@ const Users = ({
     </Header>
     <Divider />
     <Card.Group itemsPerRow={2}>
-      <UserList users={users} />
+      <UserList users={biopics} />
     </Card.Group>
     <Divider />
     <Container fluid>
-      <Pagination activePage={currentPage} totalCount={totalCount} perPage={perPage} onPageChange={getUsers} />
+      <Pagination activePage={currentPage} totalCount={totalCount} perPage={perPage} onPageChange={getBiopics} />
     </Container>
   </Container>
 );

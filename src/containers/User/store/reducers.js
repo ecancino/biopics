@@ -1,10 +1,10 @@
 import { createReducer } from 'redux-act'
-import merge from 'ramda/src/merge'
 
-import { setUser, setCountries, setTypes } from './actions'
+import { setBiopic, setCountries, setTypes } from './actions'
+import mergeProp from '../../../helpers/mergeProp'
 
 export default createReducer({
-  [setUser]: (state, user) => merge(state, { user }),
-  [setCountries]: (state, countries) => merge(state, { countries }),
-  [setTypes]: (state, types) => merge(state, { types }),
-}, { user: {}, countries: [], types: [] })
+  [setBiopic]: mergeProp('biopic'),
+  [setCountries]: mergeProp('countries'),
+  [setTypes]: mergeProp('types'),
+}, { biopic: {}, countries: [], types: [] })

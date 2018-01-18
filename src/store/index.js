@@ -2,7 +2,7 @@ import { createStore } from 'redux'
 
 import reducers from '../reducers'
 import middleware from './middleware'
-const initialState = { users: [] }
+const initialState = {}
 
 export const { dispatch, subscribe, getState } = createStore(reducers, initialState, middleware)
 

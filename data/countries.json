@@ -130,11 +130,6 @@
     "flag": "bo"
   },
   {
-    "value": "BQ",
-    "text": "Bonaire, Sint Eustatius and Saba",
-    "flag": "bq"
-  },
-  {
     "value": "BA",
     "text": "Bosnia and Herzegovina",
     "flag": "ba"
@@ -288,11 +283,6 @@
     "value": "CU",
     "text": "Cuba",
     "flag": "cu"
-  },
-  {
-    "value": "CW",
-    "text": "Curaçao",
-    "flag": "cw"
   },
   {
     "value": "CY",
@@ -460,11 +450,6 @@
     "flag": "gt"
   },
   {
-    "value": "GG",
-    "text": "Guernsey",
-    "flag": "gg"
-  },
-  {
     "value": "GN",
     "text": "Guinea",
     "flag": "gn"
@@ -545,11 +530,6 @@
     "flag": "ie"
   },
   {
-    "value": "IM",
-    "text": "Isle of Man",
-    "flag": "im"
-  },
-  {
     "value": "IL",
     "text": "Israel",
     "flag": "il"
@@ -568,11 +548,6 @@
     "value": "JP",
     "text": "Japan",
     "flag": "jp"
-  },
-  {
-    "value": "JE",
-    "text": "Jersey",
-    "flag": "je"
   },
   {
     "value": "JO",
@@ -905,11 +880,6 @@
     "flag": "qa"
   },
   {
-    "value": "XK",
-    "text": "Republic of Kosovo",
-    "flag": "xk"
-  },
-  {
     "value": "RE",
     "text": "Réunion",
     "flag": "re"
@@ -930,11 +900,6 @@
     "flag": "rw"
   },
   {
-    "value": "BL",
-    "text": "Saint Barthélemy",
-    "flag": "bl"
-  },
-  {
     "value": "SH",
     "text": "Saint Helena, Ascension and Tristan da Cunha",
     "flag": "sh"
@@ -948,11 +913,6 @@
     "value": "LC",
     "text": "Saint Lucia",
     "flag": "lc"
-  },
-  {
-    "value": "MF",
-    "text": "Saint Martin (French part)",
-    "flag": "mf"
   },
   {
     "value": "PM",
@@ -1010,11 +970,6 @@
     "flag": "sg"
   },
   {
-    "value": "SX",
-    "text": "Sint Maarten (Dutch part)",
-    "flag": "sx"
-  },
-  {
     "value": "SK",
     "text": "Slovakia",
     "flag": "sk"
@@ -1048,11 +1003,6 @@
     "value": "KR",
     "text": "Korea (Republic of)",
     "flag": "kr"
-  },
-  {
-    "value": "SS",
-    "text": "South Sudan",
-    "flag": "ss"
   },
   {
     "value": "ES",
