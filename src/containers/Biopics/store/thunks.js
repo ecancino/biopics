@@ -8,20 +8,20 @@ import { getBiopics, findBiopics, patchBiopic, deleteBiopic } from '../../../sto
 
 export const requestBiopics = (page = 1) => dispatch =>
   getBiopics(page)
-    .then(({ users, totalCount }) => {
+    .then(({ biopics, totalCount }) => {
       history.replace(`/biopics/${page}`)
-      compose(dispatch, setError)(path(['length'], users) ? undefined : 'No users')
+      compose(dispatch, setError)(path(['length'], biopics) ? undefined : 'No biopics')
       compose(dispatch, setPage)(page)
-      compose(dispatch, setBiopics)(users)
+      compose(dispatch, setBiopics)(biopics)
       compose(dispatch, setTotalCount)(totalCount)
     })
 
-export const changeBiopic = user => dispatch =>
-  patchBiopic(user)
-    .then(() => compose(dispatch, updateBiopic)(user))
+export const changeBiopic = biopic => dispatch =>
+  patchBiopic(biopic)
+    .then(() => compose(dispatch, updateBiopic)(biopic))
 
-export const removeBiopic = (userId, currentPage) => dispatch =>
-  deleteBiopic(userId)
+export const removeBiopic = (biopicId, currentPage) => dispatch =>
+  deleteBiopic(biopicId)
     .then(() => compose(dispatch, requestBiopics)(currentPage))
 
 export const searchBiopics = value => dispatch => {

@@ -6,7 +6,7 @@ import Pagination from '../../components/Pagination'
 import BiopicList from './components/BiopicList'
 import enhance from './enhance'
 
-const Users = ({
+const Biopics = ({
   biopics = [], currentPage = 1, totalCount = 0, perPage = 50, getBiopics, motif: { teal, violet }
 }) => (
   <Container fluid>
@@ -25,4 +25,4 @@ const Users = ({
   </Container>
 );
 
-export default enhance(Users)
+export default enhance(Biopics)

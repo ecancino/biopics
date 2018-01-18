@@ -10,9 +10,9 @@ import Check from '../../components/Check';
 
 import enhance from './enhance'
 
-const User = ({ handleSubmit, pristine, reset, submitting, countries, types, saveBiopic }) => (
+const Biopic = ({ handleSubmit, pristine, reset, submitting, countries, types, saveBiopic }) => (
   <Form onSubmit={handleSubmit(saveBiopic)}>
-    <Link to='/users'>
+    <Link to='/biopics'>
       <Icon name='chevron left' size='small' />
       Back
     </Link>
@@ -70,4 +70,4 @@ const User = ({ handleSubmit, pristine, reset, submitting, countries, types, sav
   </Form>
 )
 
-export default enhance(User)
+export default enhance(Biopic)

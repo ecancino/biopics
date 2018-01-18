@@ -2,12 +2,14 @@ import compose from 'ramda/src/compose'
 import { connect } from 'react-redux'
 import withMotif from 'react-motif/withMotif'
 
+import { setBiopics } from '../Biopics/store/actions'
+import { dispatch } from '../../store'
 import { searchBiopics } from '../Biopics/store/thunks'
-import { withMessage } from '../../hocs'
+import { onMount } from '../../hocs'
 
-const withError = withMessage(({ message }) => message)
+const onLoad = onMount(compose(dispatch, () => setBiopics([])))
 const stateProps = ({ biopics: { biopics } }) => ({ biopics })
 const dispatchProps = dispatch => ({ searchBiopics: compose(dispatch, searchBiopics) })
 const withProps = connect(stateProps, dispatchProps)
 
-export default compose(withProps, withError, withMotif)
+export default compose(withProps, onLoad, withMotif)

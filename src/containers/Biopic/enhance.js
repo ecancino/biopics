@@ -20,6 +20,6 @@ const withProps = connect(
   { saveBiopic }
 )
 
-const withForm = reduxForm({ form: 'user', enableReinitialize: true })
+const withForm = reduxForm({ form: 'biopic', enableReinitialize: true })
 
 export default compose(withProps, withForm, onLoad, withLoader)

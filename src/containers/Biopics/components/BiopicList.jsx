@@ -5,7 +5,7 @@ import prop from 'ramda/src/prop'
 
 import BiopicCard from './BiopicCard/BiopicCard'
 
-const toBiopicLinks = map(biopic => <BiopicCard key={biopic.id} user={biopic} />)
+const toBiopicLinks = map(biopic => <BiopicCard key={biopic.id} biopic={biopic} />)
 const BiopicList = compose(toBiopicLinks, prop('biopics'))
 
 export default BiopicList

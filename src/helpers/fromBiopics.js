@@ -3,9 +3,9 @@ import evolve from 'ramda/src/evolve'
 import path from 'ramda/src/path'
 import renameKeys from './renameKeys'
 
-const fromUsers = compose(
+const fromBiopics = compose(
   evolve({ totalCount: compose(Number, path(['x-total-count'])) }),
-  renameKeys({ data: 'users', headers: 'totalCount' })
+  renameKeys({ data: 'biopics', headers: 'totalCount' })
 )
 
-export default fromUsers
+export default fromBiopics

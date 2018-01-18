@@ -7,7 +7,7 @@ import { getBiopicData, patchBiopic } from '../../../store/thunks'
 export const saveBiopic = biopic => dispatch =>
   patchBiopic(biopic)
     .then(compose(dispatch, () => setBiopic({})))
-    .then(() => history.push('/users'))
+    .then(() => history.replace('/biopics'))
 
 export const getData = id => dispatch =>
   getBiopicData(id)
