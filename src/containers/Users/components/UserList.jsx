@@ -3,7 +3,7 @@ import compose from 'ramda/src/compose'
 import map from 'ramda/src/map'
 import prop from 'ramda/src/prop'
 
-import UserCard from './UserCard'
+import UserCard from './UserCard/UserCard'
 
 const toUserLinks = map(user => <UserCard key={user.id} user={user} />)
 const UserList = compose(toUserLinks, prop('users'))

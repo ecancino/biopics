@@ -9,7 +9,7 @@ import enhance from './enhance'
 const Users = ({
   users = [], currentPage = 1, totalCount = 0, perPage = 50, getUsers, motif: { teal, violet }
 }) => (
-  <Container>
+  <Container fluid>
     <Header as='h1' color={violet}>
       <Icon name='film' color={teal} />
       Biopics
@@ -19,7 +19,9 @@ const Users = ({
       <UserList users={users} />
     </Card.Group>
     <Divider />
-    <Pagination activePage={currentPage} totalCount={totalCount} perPage={perPage} onPageChange={getUsers} />
+    <Container fluid>
+      <Pagination activePage={currentPage} totalCount={totalCount} perPage={perPage} onPageChange={getUsers} />
+    </Container>
   </Container>
 );
 

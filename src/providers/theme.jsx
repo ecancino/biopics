@@ -1,10 +1,17 @@
 import MotifProvider from 'react-motif/MotifProvider'
 
+
+const teal = 'teal';
+const violet = 'violet';
+const red = 'red';
+const grey = 'grey';
+
 const theme = {
-  teal: 'teal',
-  violet: 'violet',
-  red: 'red',
-  grey: 'grey',
+  teal,
+  violet,
+  red,
+  grey,
+  activeColor: active => active ? teal : red
 }
 
 export default MotifProvider(theme)
