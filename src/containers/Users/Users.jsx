@@ -7,11 +7,11 @@ import UserList from './components/UserList'
 import enhance from './enhance'
 
 const Users = ({
-  users = [], currentPage = 1, totalCount = 0, perPage = 50, getUsers, theme: { primaryColor, secondaryColor }
+  users = [], currentPage = 1, totalCount = 0, perPage = 50, getUsers, motif: { teal, violet }
 }) => (
   <Container>
-    <Header as='h1' color={secondaryColor}>
-      <Icon name='film' color={primaryColor} />
+    <Header as='h1' color={violet}>
+      <Icon name='film' color={teal} />
       Biopics
     </Header>
     <Divider />

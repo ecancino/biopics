@@ -1,13 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { withContext } from 'recompose'
+import MotifProvider from 'react-motif/MotifProvider'
 
 const theme = {
-  primaryColor: 'teal',
-  secondaryColor: 'violet',
-  dangerColor: 'red',
+  teal: 'teal',
+  violet: 'violet',
+  red: 'red',
 }
 
-const ThemeProvider = theme => withContext({ theme: PropTypes.object }, () => ({ theme }))
-
-export default ThemeProvider(theme)
+export default MotifProvider(theme)

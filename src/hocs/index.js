@@ -1,6 +1,4 @@
-import PropTypes from 'prop-types'
-
-import { lifecycle, branch, renderComponent, getContext } from 'recompose'
+import { lifecycle, branch, renderComponent } from 'recompose'
 
 import Spinner from '../components/Spinner'
 import Message from '../components/Message'
@@ -13,5 +11,3 @@ export const onMount = onLoad => lifecycle({
     onLoad(this.props)
   }
 })
-
-export const withTheme = getContext({ theme: PropTypes.object })
