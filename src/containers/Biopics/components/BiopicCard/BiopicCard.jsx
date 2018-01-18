@@ -4,11 +4,11 @@ import { Link } from 'react-router'
 import { Button, Flag, Card, Icon, Popup } from 'semantic-ui-react'
 import { toYear } from '../../../../helpers/dates'
 import toLower from 'mellotron/toLower'
-import UserLink from '../UserLink'
+import BiopicLink from '../BiopicLink'
 
 import enhance from './enhance'
 
-const UserCard = ({ user, currentPage, removeBiopic, changeBiopic, motif: { teal, violet, red, activeColor } }) =>
+const BiopicCard = ({ user, currentPage, removeBiopic, changeBiopic, motif: { teal, violet, red, activeColor } }) =>
   <Card raised={user.active} role='group' tabIndex='-1' color={activeColor(user.active)}>
     <Card.Content>
       <Card.Header>
@@ -27,11 +27,11 @@ const UserCard = ({ user, currentPage, removeBiopic, changeBiopic, motif: { teal
     </Card.Content>
     <Card.Content extra>
       <Button.Group fluid>
-        <UserLink color={violet} as={Link} to={`/biopic/${user.id}`} icon='write' />
-        <UserLink color={red} onClick={() => removeBiopic(user.id, currentPage)} icon='delete' />
-        <UserLink color={teal} href={user.site} target='_blank' icon='external' />
+        <BiopicLink color={violet} as={Link} to={`/biopic/${user.id}`} icon='write' />
+        <BiopicLink color={red} onClick={() => removeBiopic(user.id, currentPage)} icon='delete' />
+        <BiopicLink color={teal} href={user.site} target='_blank' icon='external' />
       </Button.Group>
     </Card.Content>
   </Card>
 
-export default enhance(UserCard)
+export default enhance(BiopicCard)

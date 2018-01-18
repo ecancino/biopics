@@ -5,8 +5,8 @@ import { syncHistoryWithStore } from 'react-router-redux'
 import store from '../store'
 import App from '../containers/App/App'
 import Home from '../containers/Home/Home'
-import Biopics from '../containers/Users/Users'
-import Biopic from '../containers/User/User'
+import Biopics from '../containers/Biopics/Biopics'
+import Biopic from '../containers/Biopic/Biopic'
 import Search from '../containers/Search/Search'
 
 export const history = syncHistoryWithStore(hashHistory, store)

@@ -2,7 +2,7 @@ import compose from 'ramda/src/compose'
 import { connect } from 'react-redux'
 import withMotif from 'react-motif/withMotif'
 
-import { searchBiopics } from '../Users/store/thunks'
+import { searchBiopics } from '../Biopics/store/thunks'
 import { withMessage } from '../../hocs'
 
 const withError = withMessage(({ message }) => message)

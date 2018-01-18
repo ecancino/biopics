@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Header, Card, Divider, Icon } from 'semantic-ui-react'
 import Pagination from '../../components/Pagination'
 
-import UserList from './components/UserList'
+import BiopicList from './components/BiopicList'
 import enhance from './enhance'
 
 const Users = ({
@@ -16,7 +16,7 @@ const Users = ({
     </Header>
     <Divider />
     <Card.Group itemsPerRow={2}>
-      <UserList users={biopics} />
+      <BiopicList biopics={biopics} />
     </Card.Group>
     <Divider />
     <Container fluid>

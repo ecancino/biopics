@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Header, Card, Divider, Icon, Input } from 'semantic-ui-react'
 
-import UserList from '../Users/components/UserList'
+import BiopicList from '../Biopics/components/BiopicList'
 import enhance from './enhance'
 
 const Search = ({
@@ -16,7 +16,7 @@ const Search = ({
     <Input fluid name='q' loading={loading} icon='search' placeholder='Search...' onChange={searchBiopics} />
     <Divider />
     <Card.Group itemsPerRow={2} style={{ display: biopics.length ? 'flex' : 'none' }}>
-      <UserList users={biopics} />
+      <BiopicList biopics={biopics} />
     </Card.Group>
   </Container>
 );
