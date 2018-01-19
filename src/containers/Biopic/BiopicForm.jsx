@@ -8,8 +8,6 @@ import SelectField from '../../components/SelectField';
 import DatePicker from '../../components/DatePicker';
 import Check from '../../components/Check';
 
-import enhance from './enhance'
-
 const Biopic = ({ handleSubmit, pristine, reset, submitting, countries, types, saveBiopic }) => (
   <Form onSubmit={handleSubmit(saveBiopic)}>
     <Link to='/biopics'>
@@ -32,10 +30,7 @@ const Biopic = ({ handleSubmit, pristine, reset, submitting, countries, types, s
         <label htmlFor='director'>Director</label>
         <Field name='director' component={TextField} placeholder='Director' icon='film' />
       </Form.Field>
-      <Form.Field>
-        <label htmlFor='year_release'>Release</label>
-        <Field name='year_release' component={DatePicker} type='text' placeholder='Release' icon='calendar' />
-      </Form.Field>
+
     </Form.Group>
     <Form.Group widths='equal'>
       <Form.Field>
@@ -70,4 +65,10 @@ const Biopic = ({ handleSubmit, pristine, reset, submitting, countries, types, s
   </Form>
 )
 
-export default enhance(Biopic)
+// <Form.Field>
+//   <label htmlFor='year_release'>Release</label>
+//   <Field name='year_release' component={DatePicker} type='text' placeholder='Release' icon='calendar' />
+// </Form.Field>
+
+
+export default Biopic
