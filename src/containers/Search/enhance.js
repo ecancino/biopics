@@ -8,7 +8,7 @@ import { searchBiopics } from '../Biopics/store/thunks'
 import { onMount } from '../../hocs'
 
 const onLoad = onMount(compose(dispatch, () => setBiopics([])))
-const stateProps = ({ biopics: { biopics } }) => ({ biopics })
+const stateProps = ({ biopics: { biopics, loading } }) => ({ biopics, loading })
 const dispatchProps = dispatch => ({ searchBiopics: compose(dispatch, searchBiopics) })
 const withProps = connect(stateProps, dispatchProps)
 

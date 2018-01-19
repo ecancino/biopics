@@ -5,6 +5,7 @@ import { Button, Flag, Card, Icon, Popup } from 'semantic-ui-react'
 import { toYear } from '../../../../helpers/dates'
 import toLower from 'mellotron/toLower'
 import BiopicLink from '../BiopicLink'
+import ActiveLink from '../../../../components/ActiveLink'
 
 import enhance from './enhance'
 
@@ -12,9 +13,9 @@ const BiopicCard = ({ biopic, currentPage, removeBiopic, changeBiopic, motif: { 
   <Card raised={biopic.active} role='group' tabIndex='-1' color={activeColor(biopic.active)}>
     <Card.Content>
       <Card.Header>
-        <Popup size='mini' trigger={<Icon size='small' name='user' />} content={biopic.type} />
+        <Popup size='mini' trigger={<Icon name='user' />} content={biopic.type} />
         {biopic.subject}
-        <Button icon='film' onClick={() => changeBiopic(biopic)} circular size='mini' floated='right' color={activeColor(biopic.active)} />
+        <ActiveLink active={biopic.active} color={activeColor(biopic.active)} onClick={() => changeBiopic(biopic)} />
       </Card.Header>
       <Card.Description>
         <Flag name={toLower(biopic.country)} />

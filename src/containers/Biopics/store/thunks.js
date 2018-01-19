@@ -27,10 +27,10 @@ export const removeBiopic = (biopicId, currentPage) => dispatch =>
 export const searchBiopics = value => dispatch => {
   const toggleLoading = compose(dispatch, setLoading)
   const updateResults = compose(dispatch, setBiopics)
-  toggleLoading(true)
   updateResults([])
   const term = validInput(value)
   if (term === null) return
+  toggleLoading(true)
   findBiopics(term)
     .then(updateResults)
     .then(() => toggleLoading(false))
