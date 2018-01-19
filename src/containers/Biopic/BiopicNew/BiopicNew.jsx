@@ -1,4 +1,4 @@
 import BiopicForm from '../BiopicForm'
-import enhanceNew from './enhanceNew'
+import { enhanceNew } from '../enhancers'
 
 export default enhanceNew(BiopicForm)

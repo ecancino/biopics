@@ -2,7 +2,7 @@ import compose from 'ramda/src/compose'
 import { applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk'
-import logger from 'redux-logger'
+// import logger from 'redux-logger'
 
 const devTools = composeWithDevTools({
   autoPause: true,
@@ -11,4 +11,4 @@ const devTools = composeWithDevTools({
 
 const middleware = compose(devTools, applyMiddleware)
 
-export default middleware(thunk, logger)
+export default middleware(thunk) //, logger)

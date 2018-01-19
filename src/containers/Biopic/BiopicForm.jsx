@@ -1,7 +1,6 @@
 import React from 'react'
 import { Field } from 'redux-form'
-import { Link } from 'react-router'
-import { Form, Button, Icon, Divider } from 'semantic-ui-react'
+import { Form, Button } from 'semantic-ui-react'
 
 import TextField from '../../components/TextField';
 import SelectField from '../../components/SelectField';
@@ -10,11 +9,6 @@ import Check from '../../components/Check';
 
 const Biopic = ({ handleSubmit, pristine, reset, submitting, countries, types, saveBiopic }) => (
   <Form onSubmit={handleSubmit(saveBiopic)}>
-    <Link to='/biopics'>
-      <Icon name='chevron left' size='small' />
-      Back
-    </Link>
-    <Divider />
     <Form.Group widths='equal'>
       <Form.Field>
         <label htmlFor='title'>Title</label>
@@ -30,7 +24,10 @@ const Biopic = ({ handleSubmit, pristine, reset, submitting, countries, types, s
         <label htmlFor='director'>Director</label>
         <Field name='director' component={TextField} placeholder='Director' icon='film' />
       </Form.Field>
-
+      <Form.Field>
+        <label htmlFor='year_release'>Release</label>
+        <Field name='year_release' component={DatePicker} type='text' placeholder='Release' icon='calendar'/>
+      </Form.Field>
     </Form.Group>
     <Form.Group widths='equal'>
       <Form.Field>
@@ -58,17 +55,11 @@ const Biopic = ({ handleSubmit, pristine, reset, submitting, countries, types, s
         <Field name='active' component={Check} toggle format={Boolean} placeholder='Active' />
       </Form.Field>
       <Form.Field>
-        <Button type='submit' primary icon='save' content='Save' disabled={pristine || submitting} floated='right' tabIndex={-1} />
-        <Button type='button' icon='undo' content='Reset' onClick={reset} disabled={pristine || submitting} floated='right' tabIndex={-1} />
+        <Button type='submit' primary icon='save' content='Save' disabled={pristine || submitting} floated='right' tabIndex='0' />
+        <Button type='button' icon='undo' content='Reset' onClick={reset} disabled={pristine || submitting} floated='right' tabIndex='0' />
       </Form.Field>
     </Form.Group>
   </Form>
 )
-
-// <Form.Field>
-//   <label htmlFor='year_release'>Release</label>
-//   <Field name='year_release' component={DatePicker} type='text' placeholder='Release' icon='calendar' />
-// </Form.Field>
-
 
 export default Biopic

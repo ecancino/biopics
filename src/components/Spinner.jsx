@@ -1,8 +1,5 @@
 import React from 'react';
+import PreloaderIcon, { ICON_TYPE } from 'react-preloader-icon';
 
-import { Container, Icon } from 'semantic-ui-react'
-
-export default ({ name = 'setting', loading }) =>
-  <Container textAlign='center' style={{ display: loading ? 'block' : 'none' }}>
-    <Icon loading name={name} size='massive' color='violet' />
-  </Container>
+export default ({ type = 'TAIL_SPIN', size = 60, strokeWidth = 8, strokeColor = '#006064', duration = 800, style = { margin: '0 auto' } }) =>
+  <PreloaderIcon style={style} type={ICON_TYPE[type]} size={size} strokeWidth={strokeWidth} strokeColor={strokeColor} duration={duration} />

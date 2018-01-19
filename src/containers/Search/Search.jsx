@@ -1,8 +1,6 @@
 import React from 'react';
-
 import { Container, Header, Card, Divider, Icon, Input } from 'semantic-ui-react'
 
-import Spinner from '../../components/Spinner'
 import BiopicList from '../Biopics/components/BiopicList'
 import enhance from './enhance'
 
@@ -16,7 +14,6 @@ const Search = ({
     </Header>
     <Input fluid name='q' loading={loading} icon='search' placeholder='Search...' onChange={searchBiopics} />
     <Divider />
-    <Spinner loading={loading} />
     <Card.Group itemsPerRow={2} style={{ display: biopics.length ? 'flex' : 'none' }}>
       <BiopicList biopics={biopics} />
     </Card.Group>
