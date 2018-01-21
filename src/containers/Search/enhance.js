@@ -1,11 +1,10 @@
 import compose from 'ramda/src/compose'
 import { connect } from 'react-redux'
-import withMotif from 'react-motif/withMotif'
 
 import { setBiopics } from '../Biopics/store/actions'
 import { dispatch } from '../../store'
 import { searchBiopics } from '../Biopics/store/thunks'
-import { onMount } from '../../hocs'
+import { onMount, withMotif } from '../../hocs'
 
 const onLoad = onMount(compose(dispatch, () => setBiopics([])))
 const stateProps = ({ biopics: { biopics, loading } }) => ({ biopics, loading })

@@ -1,10 +1,9 @@
 import compose from 'ramda/src/compose'
 import { connect } from 'react-redux'
-import withMotif from 'react-motif/withMotif'
 
 import { dispatch } from '../../store'
 import { requestBiopics } from './store/thunks'
-import { onMount, withSpinner, withMessage } from '../../hocs'
+import { onMount, withSpinner, withMessage, withMotif } from '../../hocs'
 
 const onLoad = onMount(compose(dispatch, ({ params: { page } }) => requestBiopics(page)))
 const withLoader = withSpinner(({ biopics, errorMessage }) => !biopics && !errorMessage)

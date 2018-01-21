@@ -1,5 +1,4 @@
-import MotifProvider from 'react-motif/MotifProvider'
-
+import { addMotif } from '../hocs'
 
 const teal = 'teal';
 const violet = 'violet';
@@ -14,4 +13,4 @@ const theme = {
   activeColor: active => active ? teal : red
 }
 
-export default MotifProvider(theme)
+export default addMotif(theme)

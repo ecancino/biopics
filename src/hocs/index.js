@@ -1,4 +1,9 @@
-import { lifecycle, branch, renderComponent } from 'recompose'
+import PropTypes from 'prop-types'
+import branch from 'recompose/branch'
+import lifecycle from 'recompose/lifecycle'
+import withContext from 'recompose/withContext'
+import getContext from 'recompose/getContext'
+import renderComponent from 'recompose/renderComponent'
 
 import Spinner from '../components/Spinner'
 import Message from '../components/Message'
@@ -11,3 +16,7 @@ export const onMount = onLoad => lifecycle({
     onLoad(this.props)
   }
 })
+
+export const addMotif = motif => withContext({ motif: PropTypes.object }, () => ({ motif }))
+
+export const withMotif = getContext({ motif: PropTypes.object })
