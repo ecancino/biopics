@@ -1,12 +1,13 @@
 {
-  "name": "poc-nh-app",
-  "description": null,
+  "name": "biopics",
+  "description": "Proof of Concept React/Redux",
   "version": "0.1.0",
   "license": "MIT",
   "dependencies": {
     "aphrodite": "1.2.5",
     "axios": "0.17.1",
     "date-fns": "v2.0.0-alpha.7",
+    "is-url": "1.2.2",
     "mellotron": "0.2.5",
     "p-debounce": "1.0.0",
     "ramda": "0.25.0",

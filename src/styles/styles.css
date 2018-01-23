@@ -1,0 +1,8 @@
+
+.ui.form .rw-widget-picker .rw-input {
+  border: 0;
+}
+
+.ui.icon.message>.icon:not(.close) {
+  font-size: 1.5em
+}

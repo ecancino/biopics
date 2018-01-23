@@ -4,6 +4,8 @@ import reducers from '../reducers'
 import middleware from './middleware'
 const initialState = {}
 
-export const { dispatch, subscribe, getState } = createStore(reducers, initialState, middleware)
+const store = createStore(reducers, initialState, middleware)
 
-export default { dispatch, subscribe, getState }
+export const { dispatch, subscribe, getState } = store
+
+export default store

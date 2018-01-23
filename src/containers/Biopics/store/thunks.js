@@ -1,7 +1,7 @@
 import compose from 'ramda/src/compose'
 import path from 'ramda/src/path'
 
-import validInput from '../../../helpers/validInput'
+import validTerm from '../../../helpers/validTerm'
 import { history } from '../../../providers/router'
 import { setBiopics, setTotalCount, setPage, setError, updateBiopic, setLoading } from './actions'
 import { getBiopics, findBiopics, patchBiopic, deleteBiopic } from '../../../store/thunks'
@@ -28,7 +28,7 @@ export const searchBiopics = value => dispatch => {
   const toggleLoading = compose(dispatch, setLoading)
   const updateResults = compose(dispatch, setBiopics)
   updateResults([])
-  const term = validInput(value)
+  const term = validTerm(value)
   if (term === null) return
   toggleLoading(true)
   findBiopics(term)

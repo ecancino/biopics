@@ -5,8 +5,6 @@ import always from 'ramda/src/always'
 import path from 'ramda/src/path'
 import lte from 'ramda/src/lte'
 
-const gt3 = compose(lte(4), length)
-const isValid = unless(gt3, always(null));
-const validInput = compose(isValid, path(['target', 'value']))
+const validTerm = compose(unless(compose(lte(4), length), always(null)), path(['target', 'value']))
 
-export default validInput
+export default validTerm

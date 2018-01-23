@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 import 'semantic-ui-css/semantic.min.css';
 import 'react-widgets/dist/css/react-widgets.css'
+import './styles/styles.css'
 
 import Root from './containers/Root'
 

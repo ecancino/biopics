@@ -19,6 +19,6 @@ Implemented : ✓
 - [ramda](http://ramdajs.com/) ✓
 - [axios](https://github.com/axios/axios) ✓
 - [date-fns](https://date-fns.org/) ✓
-- [validator](https://github.com/chriso/validator.js)
+- [mellotron](hhttps://www.npmjs.com/package/mellotron) ✓
 - [jest](https://facebook.github.io/jest/)
 - [react-day-picker](http://react-day-picker.js.org/) ✓
