@@ -4336,11 +4336,12 @@ media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
 
-mellotron@0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/mellotron/-/mellotron-0.2.5.tgz#080091adf4e54fcd9c16bdc50860bb9c6b020a90"
+mellotron@0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/mellotron/-/mellotron-0.2.6.tgz#ec59531c24d17f157233341d85740ad24117c85b"
   dependencies:
     charcount "1.0.0"
+    is-url "1.2.2"
     lodash "4.17.4"
     querystring "0.2.0"
     ramda "0.23.0"

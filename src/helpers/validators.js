@@ -1,4 +1,4 @@
-import isURL from 'is-url'
+import isURL from 'mellotron/isURL'
 import isAfter from 'date-fns/fp/isAfter'
 
 export const isRequired = (value, a, b) => value ? undefined : `Is required.`
